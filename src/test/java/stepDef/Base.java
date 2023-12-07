@@ -1,6 +1,6 @@
-package steps;
+package stepDef;
 
-import drivers.DriverFactory;
+import driver.DriverFactory;
 import io.cucumber.java.After;
 
 public class Base {

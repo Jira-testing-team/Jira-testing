@@ -1,16 +1,16 @@
-package steps;
+package stepDef;
 
-import drivers.DriverFactory;
+import driver.DriverFactory;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import page.DashboardPO;
-import page.GroupBrowserPO;
-import page.LoginPO;
-import page.UserBrowserPO;
+import pages.DashboardPO;
+import pages.GroupBrowserPO;
+import pages.LoginPO;
+import pages.UserBrowserPO;
 
 import java.util.List;
 

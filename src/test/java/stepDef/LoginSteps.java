@@ -1,6 +1,6 @@
-package steps;
+package stepDef;
 
-import drivers.DriverFactory;
+import driver.DriverFactory;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -8,7 +8,7 @@ import io.cucumber.java.en.When;
 import io.github.cdimascio.dotenv.Dotenv;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import page.LoginPO;
+import pages.LoginPO;
 
 public class LoginSteps {
     private final LoginPO loginPO;

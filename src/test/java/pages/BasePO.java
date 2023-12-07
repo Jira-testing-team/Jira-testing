@@ -4,13 +4,12 @@ import driver.DriverFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
-
-public abstract class BasePO {
+public class BasePO {
     public BasePO() {
         WebDriver driver = DriverFactory.getDriver();
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         PageFactory.initElements(driver, this);
     }
 }

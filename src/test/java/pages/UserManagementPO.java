@@ -32,6 +32,24 @@ public class UserManagementPO extends BasePO{
     @FindBy(linkText = "Log Out")
     private WebElement logoutBtn;
 
+    @FindBy(id = "editgroups_jacky123")
+    private WebElement editGroupsBtn;
+
+    @FindBy(id = "groupsToJoin-textarea")
+    private WebElement groupNameInput;
+
+    @FindBy(id = "user-edit-groups-join")
+    private WebElement joinBtn;
+
+    @FindBy(xpath = "//div[@id='user-filter-group-suggestions']//ul//li")
+    private WebElement QAOption;
+
+    @FindBy(xpath = "//b[text()='QA']")
+    private WebElement QAOptionInAssign;
+
+    @FindBy(id = "user-filter-group-field")
+    private WebElement groupBox;
+
 
 
     public void clickCreate() {
@@ -58,10 +76,14 @@ public class UserManagementPO extends BasePO{
         updateBtn.click();
     }
 
-    public void applyInactiveFilter() throws InterruptedException {
+    public void applyFilterByStatus(String status) throws InterruptedException {
         Thread.sleep(1000);
         Select select = new Select(statusSelect);
-        select.selectByValue("false");
+        if(status.equals("false")) {
+            select.selectByValue("false");
+        }else if(status.equals("true")) {
+            select.selectByValue("true");
+        }
         filterBtn.click();
     }
 
@@ -69,4 +91,28 @@ public class UserManagementPO extends BasePO{
         userProfile.click();
         logoutBtn.click();
     }
+
+    public void clickUserdots(String username) {
+        userTable.findElement(By.xpath("//tr[@data-user='" + username + "']/descendant::span[normalize-space()='Actions']")).click();
+    }
+
+    public void clickEditGroups() {
+        editGroupsBtn.click();
+    }
+
+    public void assignGroups(String groupName) {
+        groupNameInput.sendKeys(groupName);
+        if(groupName.equals("QA")) {
+            QAOptionInAssign.click();
+        }
+        joinBtn.click();
+    }
+
+    public void applyFilterByGroups(String group) {
+        groupBox.clear();
+        groupBox.sendKeys(group);
+        QAOption.click();
+        filterBtn.click();
+    }
+
 }

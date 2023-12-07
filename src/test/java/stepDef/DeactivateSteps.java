@@ -31,7 +31,7 @@ public class DeactivateSteps {
     }
     @Then("I should be able to see user with {string} appears when I apply the filter of inactive users")
     public void i_should_be_able_to_see_this_user_appear_when_i_apply_the_filter_of_inactive_users(String username) throws InterruptedException {
-        userManagementPO.applyInactiveFilter();
+        userManagementPO.applyFilterByStatus("false");
         assertTrue(userManagementPO.hasUser(username));
     }
     @Then("This user cannot login with {string} and {string} anymore")

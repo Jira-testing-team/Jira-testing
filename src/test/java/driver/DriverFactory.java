@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -16,14 +17,19 @@ public class DriverFactory {
 
     private static WebDriver createWebDriver() {
         WebDriver webDriver;
+
         try (FileInputStream input = new FileInputStream("src/test/resources/application.properties")) {
             Properties properties =  new Properties();
+          
             properties.load(input);
 
             switch (properties.getProperty("driver").toLowerCase()) {
                 case "chrome": {
                     WebDriverManager.chromedriver().setup();
-                    webDriver = new ChromeDriver();
+
+                    ChromeOptions options = new ChromeOptions();
+                    options.addArguments("--remote-allow-origins=*");
+                    webDriver = new ChromeDriver(options);
                     break;
                 }
                 case "firefox": {
@@ -60,9 +66,11 @@ public class DriverFactory {
     }
 
     public static void teardown() {
-        if(driverLocal.get() != null) {
+      
+        if (driverLocal.get() != null) {
             driverLocal.get().quit();
             driverLocal.remove();
         }
     }
 }
+

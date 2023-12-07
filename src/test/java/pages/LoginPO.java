@@ -15,9 +15,11 @@ public class LoginPO extends BasePO{
     @FindBy(id = "login")
     private WebElement loginBtn;
 
+
     public void login(String username, String password) {
         usernameInput.sendKeys(username);
         passwordInput.sendKeys(password);
         loginBtn.click();
     }
+
 }

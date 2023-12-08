@@ -6,9 +6,39 @@
   <component name="ChangeListManager">
     <list default="true" id="cecae4bb-ae1d-439f-a7e2-9b40d8153742" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/UserBrowserPO.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/UserManagementPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/UserManagementPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/DeactivateSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/DeactivateSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/AddUserToGroupSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/AddUserToGroupSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/CreateGroupSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/CreateGroupSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/FilterUsersByGroupSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/FilterUsersByGroupSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/LoginSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/driver/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/driver/DriverFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/DriverFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/BasePO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/BulkEditGroupPO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/DashboardPO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/GroupBrowserPO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/LoginPO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/UserBrowserPO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BasePO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/BasePO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/CreateUserPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/CreateUserPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DashboardPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/DashboardPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pages/UserManagementPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/UserManagementPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/ValidateCredentialPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/ValidateCredentialPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDef/AssignGroupsSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDef/AssignGroupsSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDef/CreateUserSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDef/CreateUserSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDef/DeactivateSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDef/DeactivateSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/AddUserToGroupSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/CreateGroupSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/FilterUsersByGroupSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginSteps.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +53,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="group-management-ui-2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2Z7B3FwhYYLsdGxma4MqDnf1fG8" />
@@ -32,16 +67,12 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
-  </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: assignUserRole">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "group-management-ui-2"
+  }
+}]]></component>
+  <component name="RunManager">
     <configuration name="Feature: assignUserRole" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/assignUserRole.feature" />
@@ -134,6 +165,23 @@
       <option name="presentableId" value="Default" />
       <updated>1701763040181</updated>
     </task>
+    <task id="LOCAL-00001" summary="feature: satisfied ui automation requirements for group management tasks">
+      <option name="closed" value="true" />
+      <created>1701986120877</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701986120877</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix: renamed folders to match develop branch">
+      <option name="closed" value="true" />
+      <created>1701986831984</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701986831984</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,10 +189,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="group-management-ui-2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feature: satisfied ui automation requirements for group management tasks" />
+    <MESSAGE value="fix: renamed folders to match develop branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: renamed folders to match develop branch" />
   </component>
 </project>

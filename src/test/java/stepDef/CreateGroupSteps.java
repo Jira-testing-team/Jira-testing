@@ -7,26 +7,23 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import pages.DashboardPO;
-import pages.GroupBrowserPO;
-import pages.LoginPO;
-import pages.UserBrowserPO;
+import pages.*;
 
 import java.util.List;
 
 public class CreateGroupSteps {
     private final DashboardPO dashboardPO;
-    private final UserBrowserPO userBrowserPO;
+    private final UserManagementPO userBrowserPO;
     private final GroupBrowserPO groupBrowserPO;
     private final WebDriver driver;
     private final LoginPO loginPO;
-    private final String username = "jz";
-    private final String password = "123";
+    private final String username = "jzhang1297";
+    private final String password = "Jia1997$";
     public String groupName = "abaca";
 
     public CreateGroupSteps() {
         dashboardPO = new DashboardPO();
-        userBrowserPO = new UserBrowserPO();
+        userBrowserPO = new UserManagementPO();
         groupBrowserPO = new GroupBrowserPO();
         loginPO = new LoginPO();
         driver = DriverFactory.getDriver();
@@ -35,21 +32,18 @@ public class CreateGroupSteps {
     @Given("I am logged in and on the dashboard page")
     public void iAmOnTheDashboardPage() {
         driver.navigate().to(loginPO.URL);
-        loginPO.enterUsername(username);
-        loginPO.enterPassword(password);
-        loginPO.clickLoginButton();
-        driver.navigate().to(dashboardPO.URL);
+        loginPO.login(username, password);
     }
 
 
     @When("I click the config button")
     public void iClickTheConfigButton() {
-        dashboardPO.clickConfigButton();
+        dashboardPO.clickSettingBtn();
     }
 
     @And("click on the user management button")
     public void clickOnTheUserManagementButton() {
-        dashboardPO.clickUserManagementButton();
+        dashboardPO.clickUsermanagementBtn();
         userBrowserPO.enterPassword(password);
         userBrowserPO.clickConfirmButton();
     }

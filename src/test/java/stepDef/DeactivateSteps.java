@@ -31,13 +31,18 @@ public class DeactivateSteps {
     }
     @Then("I should be able to see user with {string} appears when I apply the filter of inactive users")
     public void i_should_be_able_to_see_this_user_appear_when_i_apply_the_filter_of_inactive_users(String username) throws InterruptedException {
+        System.out.println("Apply filter");
         userManagementPO.applyFilterByStatus("false");
+        System.out.println("Before assertion1");
         assertTrue(userManagementPO.hasUser(username));
+        System.out.println("Assertion done");
     }
     @Then("This user cannot login with {string} and {string} anymore")
-    public void this_user_cannot_login_anymore(String username, String password) {
+    public void this_user_cannot_login_anymore(String username, String password) throws InterruptedException {
         userManagementPO.clickLogout();
+        Thread.sleep(3000);
         driver.navigate().to("http://localhost:8080/secure/Dashboard.jspa");
+        Thread.sleep(3000);
         loginPO.login(username, password);
         assertTrue(driver.getCurrentUrl().equals("http://localhost:8080/secure/Dashboard.jspa"));
 

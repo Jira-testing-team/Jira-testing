@@ -38,7 +38,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: assignUserRole">
+  <component name="RunManager" selected="Cucumber Java.Feature: createUser">
     <configuration name="Feature: assignUserRole" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/assignUserRole.feature" />
@@ -115,9 +115,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: assignUserRole" />
-        <item itemvalue="Cucumber Java.Feature: deactivateUser" />
         <item itemvalue="Cucumber Java.Feature: createUser" />
+        <item itemvalue="Cucumber Java.Feature: deactivateUser" />
+        <item itemvalue="Cucumber Java.Feature: assignUserRole" />
         <item itemvalue="Cucumber Java.Feature: test" />
       </list>
     </recent_temporary>

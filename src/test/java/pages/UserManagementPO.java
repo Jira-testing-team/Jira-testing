@@ -58,9 +58,12 @@ public class UserManagementPO extends BasePO{
 
     public boolean hasUser(String username) {
         List<WebElement> rows = userTable.findElements(By.xpath(".//tr"));
+        System.out.println("get rows done");
+        System.out.println(rows.size());
         for (int i = 0; i < rows.size(); i++) {
             String tmp = rows.get(i).findElement(By.xpath("//span[@class='username']")).getText();
-            if(tmp.equals(username)) {
+            System.out.println(tmp);
+            if(tmp.equals(username + "\n" + "(Inactive)")) {
                 return true;
             }
         }

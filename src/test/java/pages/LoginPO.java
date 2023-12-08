@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class LoginPO extends BasePO{
-    public String URL = "http://localhost:8080/login.jsp";
+    public String URL = "http://localhost:8080/Dashboard.jspa";
     @FindBy(id = "login-form-username")
     private WebElement usernameInput;
 

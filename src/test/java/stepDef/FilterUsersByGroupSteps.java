@@ -7,20 +7,23 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import pages.DashboardPO;
 import pages.LoginPO;
-import pages.UserBrowserPO;
+import pages.UserManagementPO;
 
 import java.util.List;
 
 public class FilterUsersByGroupSteps {
-    private final UserBrowserPO userBrowserPO;
+    private final DashboardPO dashboardPO;
+    private final UserManagementPO userBrowserPO;
     private final WebDriver driver;
     private final LoginPO loginPO;
-    private final String username = "jz";
-    private final String password = "123";
+    private final String username = "jzhang1297";
+    private final String password = "Jia1997$";
 
     public FilterUsersByGroupSteps() {
-        userBrowserPO = new UserBrowserPO();
+        userBrowserPO = new UserManagementPO();
+        dashboardPO = new DashboardPO();
         driver = DriverFactory.getDriver();
         loginPO = new LoginPO();
     }
@@ -28,10 +31,9 @@ public class FilterUsersByGroupSteps {
     @Given("I am logged on and on the users browsers page")
     public void iAmOnTheUsersBrowsersPage() {
         driver.navigate().to(loginPO.URL);
-        loginPO.enterUsername(username);
-        loginPO.enterPassword(password);
-        loginPO.clickLoginButton();
-        driver.navigate().to(userBrowserPO.URL);
+        loginPO.login(username, password);
+        dashboardPO.clickSettingBtn();
+        dashboardPO.clickUsermanagementBtn();
         userBrowserPO.enterPassword(password);
         userBrowserPO.clickConfirmButton();
     }

@@ -2,14 +2,26 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class UserManagementPO extends BasePO{
+    public String URL = "http://localhost:8080/secure/admin/user/UserBrowser.jspa";
     @FindBy(id = "create_user")
     private WebElement createBtn;
+
+    @FindBy(xpath = "//input[@id='login-form-authenticatePassword']")
+    public WebElement passwordInput;
+
+    @FindBy(xpath = "//button[@id='login-form-submit']")
+    public WebElement confirmButton;
+
+    @FindBy(xpath = "//a[@id='group_browser']")
+    public WebElement groupsButton;
 
     @FindBy(id = "user_browser_table")
     private WebElement userTable;
@@ -43,6 +55,12 @@ public class UserManagementPO extends BasePO{
 
     @FindBy(xpath = "//div[@id='user-filter-group-suggestions']//ul//li")
     private WebElement QAOption;
+
+    @FindAll(@FindBy(xpath = "//div[@id='user-filter-group-suggestions']/div/ul/child::li"))
+    public List<WebElement> listOfGroups;
+
+    @FindAll(@FindBy(xpath = "//td[@data-cell-type='user-groups']/ul/li/a[contains(text(), 'admin')]"))
+    public List<WebElement> listOfUserGroups;
 
     @FindBy(xpath = "//b[text()='QA']")
     private WebElement QAOptionInAssign;
@@ -115,4 +133,38 @@ public class UserManagementPO extends BasePO{
         filterBtn.click();
     }
 
+    public void enterPassword(String password) {
+        passwordInput.sendKeys(password);
+    }
+
+    public void clickConfirmButton() { confirmButton.click(); }
+
+    public void clickFilterButton() {
+        filterBtn.click();
+    }
+
+    public void clickGroupsButton() {
+        groupsButton.click();
+    }
+
+    public void enterGroupInput(String groupName) {
+        groupBox.clear();
+        groupBox.sendKeys(groupName);
+    }
+
+    public void clickGroupNameFromList(String groupName) {
+        for(WebElement group : listOfGroups) {
+            if(group.getText().equals(groupName)) {
+                group.click();
+            }
+        }
+    }
+
+    public List<String> getAllUserGroups() {
+        List<String> result = new ArrayList<>();
+        for(WebElement groupName : listOfUserGroups) {
+            result.add(groupName.getText());
+        }
+        return result;
+    }
 }

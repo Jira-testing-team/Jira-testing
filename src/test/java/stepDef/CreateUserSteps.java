@@ -72,8 +72,8 @@ public class CreateUserSteps {
         assertTrue(userManagementPO.hasUser(username));
     }
 
-    @After
-    public void teardown() {
-        DriverFactory.teardown();
-    }
+//    @After
+//    public void teardown() {
+//        DriverFactory.teardown();
+//    }
 }

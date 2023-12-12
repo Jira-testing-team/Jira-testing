@@ -36,6 +36,15 @@ public class DashboardPO extends BasePO{
     private WebElement projectSubmitBtn;
 
 
+    @FindBy(id = "admin_issues_menu")
+    public WebElement issuesButton;
+
+    @FindBy(id = "greenhopper_menu")
+    public WebElement boardsButton;
+
+    @FindBy(id = "ghx-manageviews-mlink_lnk")
+    public WebElement projectBoardButton;
+
 
     public void clickSettingBtn() {
         settingBtn.click();
@@ -61,5 +70,10 @@ public class DashboardPO extends BasePO{
 
     }
     public void clickSubmitProjectBtn() {projectSubmitBtn.click();}
+    public void clickIssuesButton() { issuesButton.click(); }
+
+    public void clickBoardsButton() {boardsButton.click();}
+
+    public void clickViewAllBoardsButton() {projectBoardButton.click();}
 }
 

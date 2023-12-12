@@ -1,4 +1,4 @@
-package stepDef;
+package stepDef.ui.user;
 
 import driver.DriverFactory;
 import io.cucumber.java.After;
@@ -33,13 +33,9 @@ public class CreateUserSteps {
         driver = DriverFactory.getDriver();
     }
 
-    @Before
-    public void setup() {
-        driver.navigate().to("http://localhost:8080/secure/Dashboard.jspa");
-    }
-
     @Given("I logged in as an admin")
     public void i_logged_in_as_an_admin() {
+        driver.navigate().to("http://localhost:8080/secure/Dashboard.jspa");
         loginPO.login("leozhu333", "password123");
     }
     @When("I click on setting on the dashboard page")
@@ -72,8 +68,4 @@ public class CreateUserSteps {
         assertTrue(userManagementPO.hasUser(username));
     }
 
-    @After
-    public void teardown() {
-        DriverFactory.teardown();
-    }
 }

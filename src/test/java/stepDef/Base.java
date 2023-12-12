@@ -8,4 +8,5 @@ public class Base {
     public void afterScenario() {
         DriverFactory.teardown();
     }
+
 }

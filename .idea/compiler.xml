@@ -10,5 +10,8 @@
         <module name="Jira-testing" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Jira-testing" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

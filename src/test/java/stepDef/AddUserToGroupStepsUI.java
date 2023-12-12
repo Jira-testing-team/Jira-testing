@@ -11,18 +11,15 @@ import pages.*;
 
 import java.util.List;
 
-public class AddUserToGroupSteps {
+public class AddUserToGroupStepsUI {
     private final GroupBrowserPO groupBrowserPO;
     private final BulkEditGroupPO bulkEditGroupPO;
     private final DashboardPO dashboardPO;
     private final UserManagementPO userManagementPO;
     private final WebDriver driver;
     private final LoginPO loginPO;
-    public String user = "thecptn";
-    private final String username = "jzhang1297";
-    private final String password = "Jia1997$";
 
-    public AddUserToGroupSteps() {
+    public AddUserToGroupStepsUI() {
         groupBrowserPO = new GroupBrowserPO();
         bulkEditGroupPO = new BulkEditGroupPO();
         dashboardPO = new DashboardPO();
@@ -31,8 +28,8 @@ public class AddUserToGroupSteps {
         driver = DriverFactory.getDriver();
     }
 
-    @Given("I am logged in and on the group browser page")
-    public void iAmOnTheGroupBrowserPage() {
+    @Given("I am logged in with {string} and {string} and on the group browser page")
+    public void iAmOnTheGroupBrowserPage(String username, String password) {
         driver.navigate().to(loginPO.URL);
         loginPO.login(username, password);
         dashboardPO.clickSettingBtn();
@@ -52,20 +49,20 @@ public class AddUserToGroupSteps {
         Assert.assertEquals(driver.getCurrentUrl(), bulkEditGroupPO.URL);
     }
 
-    @When("I enter and select the name of the group")
-    public void iSelectTheNameOfTheGroup() {
-        bulkEditGroupPO.enterGroupInput("jira-administrator");
-        bulkEditGroupPO.clickGroupInList("jira-administrator");
+    @When("I enter and select the name of the group, {string}")
+    public void iSelectTheNameOfTheGroup(String groupName) {
+        bulkEditGroupPO.enterGroupInput(groupName);
+        bulkEditGroupPO.clickGroupInList(groupName);
     }
 
-    @And("enter the user, and click the add selected users button")
-    public void enterTheUserAndClickTheAddSelectedUsersButton() {
+    @And("enter the user {string}, and click the add selected users button")
+    public void enterTheUserAndClickTheAddSelectedUsersButton(String user) {
         bulkEditGroupPO.enterUserAssignInput(user);
         bulkEditGroupPO.clickAddUserButton();
     }
 
-    @Then("the added user should be under group members")
-    public void theAddedUserShouldBeUnderGroupMembers() {
+    @Then("the added user {string} should be under group members")
+    public void theAddedUserShouldBeUnderGroupMembers(String user) {
         List<String> usernames = bulkEditGroupPO.getUserInGroupList();
         for(String name : usernames) {
             if(name.equals(user)) {

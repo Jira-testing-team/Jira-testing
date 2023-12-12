@@ -7,8 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 import java.time.Duration;
 
 public class BasePO {
+    WebDriver driver;
     public BasePO() {
-        WebDriver driver = DriverFactory.getDriver();
+        driver = DriverFactory.getDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         PageFactory.initElements(driver, this);
     }

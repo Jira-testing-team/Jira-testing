@@ -11,17 +11,14 @@ import pages.*;
 
 import java.util.List;
 
-public class CreateGroupSteps {
+public class CreateGroupStepsUI {
     private final DashboardPO dashboardPO;
     private final UserManagementPO userBrowserPO;
     private final GroupBrowserPO groupBrowserPO;
     private final WebDriver driver;
     private final LoginPO loginPO;
-    private final String username = "jzhang1297";
-    private final String password = "Jia1997$";
-    public String groupName = "abaca";
 
-    public CreateGroupSteps() {
+    public CreateGroupStepsUI() {
         dashboardPO = new DashboardPO();
         userBrowserPO = new UserManagementPO();
         groupBrowserPO = new GroupBrowserPO();
@@ -29,8 +26,8 @@ public class CreateGroupSteps {
         driver = DriverFactory.getDriver();
     }
 
-    @Given("I am logged in and on the dashboard page")
-    public void iAmOnTheDashboardPage() {
+    @Given("I am logged in with {string} and {string} and on the dashboard page")
+    public void iAmOnTheDashboardPage(String username, String password) {
         driver.navigate().to(loginPO.URL);
         loginPO.login(username, password);
     }
@@ -41,8 +38,8 @@ public class CreateGroupSteps {
         dashboardPO.clickSettingBtn();
     }
 
-    @And("click on the user management button")
-    public void clickOnTheUserManagementButton() {
+    @And("click on the user management button then provide {string} to authenticate")
+    public void clickOnTheUserManagementButton(String password) {
         dashboardPO.clickUsermanagementBtn();
         userBrowserPO.enterPassword(password);
         userBrowserPO.clickConfirmButton();
@@ -63,8 +60,8 @@ public class CreateGroupSteps {
         Assert.assertEquals(driver.getCurrentUrl(), groupBrowserPO.URL);
     }
 
-    @When("I enter the name of the group")
-    public void iEnterTheNameOfTheGroup() {
+    @When("I enter the name of the group, {string}")
+    public void iEnterTheNameOfTheGroup(String groupName) {
         groupBrowserPO.enterGroupNameInput(groupName);
     }
 
@@ -73,8 +70,8 @@ public class CreateGroupSteps {
         groupBrowserPO.clickAddGroupButton();
     }
 
-    @Then("the name I just added should appear under group name")
-    public void theNameIJustAddedShouldAppearUnderGroupName() {
+    @Then("the group name {string} I just added should appear under group name")
+    public void theNameIJustAddedShouldAppearUnderGroupName(String groupName) {
         List<String> groupNames = groupBrowserPO.getGroupNames();
         for(String names : groupNames) {
             if(names.equals(groupName)) {

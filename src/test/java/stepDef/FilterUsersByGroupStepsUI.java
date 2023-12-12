@@ -13,23 +13,21 @@ import pages.UserManagementPO;
 
 import java.util.List;
 
-public class FilterUsersByGroupSteps {
+public class FilterUsersByGroupStepsUI {
     private final DashboardPO dashboardPO;
     private final UserManagementPO userBrowserPO;
     private final WebDriver driver;
     private final LoginPO loginPO;
-    private final String username = "jzhang1297";
-    private final String password = "Jia1997$";
 
-    public FilterUsersByGroupSteps() {
+    public FilterUsersByGroupStepsUI() {
         userBrowserPO = new UserManagementPO();
         dashboardPO = new DashboardPO();
         driver = DriverFactory.getDriver();
         loginPO = new LoginPO();
     }
 
-    @Given("I am logged on and on the users browsers page")
-    public void iAmOnTheUsersBrowsersPage() {
+    @Given("I am logged on with {string} and {string} and on the users browsers page")
+    public void iAmOnTheUsersBrowsersPage(String username, String password) {
         driver.navigate().to(loginPO.URL);
         loginPO.login(username, password);
         dashboardPO.clickSettingBtn();
@@ -38,10 +36,10 @@ public class FilterUsersByGroupSteps {
         userBrowserPO.clickConfirmButton();
     }
 
-    @When("I enter and select the group I want to filter")
-    public void iEnterAndSelectTheGroupIWantToFilter() {
-        userBrowserPO.enterGroupInput("admin");
-        userBrowserPO.clickGroupNameFromList("admin");
+    @When("I enter and select the group {string} I want to filter")
+    public void iEnterAndSelectTheGroupIWantToFilter(String groupName) {
+        userBrowserPO.enterGroupInput(groupName);
+        userBrowserPO.clickGroupNameFromList(groupName);
     }
 
     @And("click on the filter button")
@@ -49,11 +47,11 @@ public class FilterUsersByGroupSteps {
         userBrowserPO.clickFilterButton();
     }
 
-    @Then("I should see all users with the group filter")
-    public void iShouldSeeAllUsersWithTheGroupFilter() {
-        List<String> userGroups = userBrowserPO.getAllUserGroups();
-        for(String groupName : userGroups) {
-            Assert.assertTrue(groupName.contains("admin"));
+    @Then("I should see all users with the group {string} filter")
+    public void iShouldSeeAllUsersWithTheGroupFilter(String groupName) {
+        List<String> userGroups = userBrowserPO.getAllUserGroups(groupName);
+        for(String group : userGroups) {
+            Assert.assertEquals(group, groupName);
         }
     }
 }

@@ -4,12 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cecae4bb-ae1d-439f-a7e2-9b40d8153742" name="Default Changelist" comment="feature: added api testing for group management task, also changed existing group management ui stepDef files to be more dynamic with examples in features file">
+    <list default="true" id="cecae4bb-ae1d-439f-a7e2-9b40d8153742" name="Default Changelist" comment="feature: added ui testing for workflow management related tasks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DashboardPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DashboardPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BasePO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/BasePO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DashboardPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/DashboardPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/AddUserToGroupStepsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/api/group/AddUserToGroupStepsAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/AddUserToGroupStepsUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/ui/group/AddUserToGroupStepsUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/ChangeIssueStatusStepsUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/ui/workflow/ChangeIssueStatusStepsUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/CreateGroupStepsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/api/group/CreateGroupStepsAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/CreateGroupStepsUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/ui/group/CreateGroupStepsUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/CreateUserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/CreateUserSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/CreateWorkflowStepsUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/ui/workflow/CreateWorkflowStepsUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/EditColumnsStepsUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/ui/workflow/EditColumnsStepsUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/FilterUsersByGroupStepsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/api/group/FilterUsersByGroupStepsAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/FilterUsersByGroupStepsUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/ui/group/FilterUsersByGroupStepsUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/assign-users-to-group-api.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/api/group/assign-users-to-group-api.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/assign-users-to-group-ui.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/group/assign-users-to-group-ui.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/change-issue-status-ui.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/workflow/change-issue-status-ui.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/create-groups-api.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/api/group/create-groups-api.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/create-groups-ui.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/group/create-groups-ui.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/create-workflow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/workflow/create-workflow.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/edit-columns.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/workflow/edit-columns.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/filter-user-by-group-api.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/api/group/filter-user-by-group-api.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/filter-user-by-group-ui.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/group/filter-user-by-group-ui.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/assign-users-to-group-api.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/assign-users-to-group-ui.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/create-groups-api.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/create-groups-ui.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/filter-user-by-group-api.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/filter-user-by-group-ui.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDef/AddUserToGroupStepsAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDef/AddUserToGroupStepsUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDef/CreateGroupStepsAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDef/CreateGroupStepsUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDef/CreateUserSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDef/CreateUserSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDef/FilterUsersByGroupStepsAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDef/FilterUsersByGroupStepsUI.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +73,13 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JiaXiangZhang\Desktop\BeaconFire\Jira-testing\src\test\resources\features\ui\group" />
+      <recent name="C:\Users\JiaXiangZhang\Desktop\BeaconFire\Jira-testing\src\test\resources\features\api\group" />
+      <recent name="C:\Users\JiaXiangZhang\Desktop\BeaconFire\Jira-testing\src\test\resources\features\ui\workflow" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Feature: assignUserRole" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -179,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702357855102</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feature: added ui testing for workflow management related tasks">
+      <option name="closed" value="true" />
+      <created>1702397236276</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702397236276</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +252,7 @@
     <MESSAGE value="feature: satisfied ui automation requirements for group management tasks" />
     <MESSAGE value="fix: renamed folders to match develop branch" />
     <MESSAGE value="feature: added api testing for group management task, also changed existing group management ui stepDef files to be more dynamic with examples in features file" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: added api testing for group management task, also changed existing group management ui stepDef files to be more dynamic with examples in features file" />
+    <MESSAGE value="feature: added ui testing for workflow management related tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: added ui testing for workflow management related tasks" />
   </component>
 </project>

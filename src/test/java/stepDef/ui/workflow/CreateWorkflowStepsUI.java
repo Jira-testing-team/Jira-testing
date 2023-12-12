@@ -1,4 +1,4 @@
-package stepDef;
+package stepDef.ui.workflow;
 
 import driver.DriverFactory;
 import io.cucumber.java.en.And;

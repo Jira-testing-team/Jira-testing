@@ -1,4 +1,4 @@
-package stepDef;
+package stepDef.api.group;
 
 import api.GroupAPI;
 import api.GroupsAPI;

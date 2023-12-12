@@ -1,4 +1,4 @@
-package stepDef;
+package stepDef.api.group;
 
 import api.GroupAPI;
 import io.cucumber.java.en.Then;

@@ -25,7 +25,7 @@ public class BulkEditGroupPO extends BasePO {
     @FindBy(xpath = "//input[@id='login-form-authenticatePassword']")
     public WebElement passwordInput;
 
-    @FindAll(@FindBy(xpath = "//optgroup[@label='jira-administrators']/child::option"))
+    @FindAll(@FindBy(xpath = "//optgroup/child::option"))
     public List<WebElement> groupMembersList;
 
     @FindBy(xpath = "//a[@id='user_browser']")

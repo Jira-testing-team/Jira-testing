@@ -5,30 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="819d7506-fc9c-41ab-b305-ca32c6d70953" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Jira-testing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DashboardPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DashboardPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/UserManagementPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/UserManagementPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/AddUserToGroupSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/ui/user/AddUserToGroupSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/AssignGroupsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/ui/group/AssignGroupsSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/CreateGroupSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/ui/group/CreateGroupSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/CreateUserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/ui/user/CreateUserSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/DeactivateSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/ui/user/DeactivateSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/FilterUsersByGroupSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/ui/group/FilterUsersByGroupSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/assign-users-to-group.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/group/assign-users-to-group.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/assignUserRole.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/user/assignUserRole.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/create-groups.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/group/create-groups.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/createUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/user/createUser.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/deactivateUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/user/deactivateUser.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/filter-user-by-group.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/group/filter-user-by-group.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DashboardPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/DashboardPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/UserManagementPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/UserManagementPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDef/CreateUserSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDef/CreateUserSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDef/DeactivateSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDef/DeactivateSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

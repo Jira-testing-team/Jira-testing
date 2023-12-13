@@ -75,7 +75,7 @@ public class UserManagementPO extends BasePO{
         List<WebElement> rows = userTable.findElements(By.xpath(".//tr"));
         for (int i = 0; i < rows.size(); i++) {
             String tmp = rows.get(i).findElement(By.xpath("//span[@class='username']")).getText();
-            if(tmp.equals(username)) {
+            if(tmp.contains(username)) {
                 return true;
             }
         }

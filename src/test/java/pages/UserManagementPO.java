@@ -159,7 +159,7 @@ public class UserManagementPO extends BasePO{
 
     public List<String> getAllUserGroups(String groupName) {
         List<String> result = new ArrayList<>();
-        List<WebElement> list = driver.findElements(By.xpath("//td[@data-cell-type='user-groups']/ul/li/a[contains(text(), '"+ groupName +"')]"));
+        List<WebElement> list = driver.findElements(By.xpath("//td[@data-cell-type='user-groups']/ul/li/a[text()='"+ groupName +"']"));
         for(WebElement group : list) {
             result.add(group.getText());
         }

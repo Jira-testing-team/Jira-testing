@@ -21,5 +21,12 @@ public class LoginPO extends BasePO{
         loginBtn.click();
     }
 
+    public void slowLogin(String username, String password) throws InterruptedException {
+        usernameInput.sendKeys(username);
+        Thread.sleep(1000);
+        passwordInput.sendKeys(password);
+        loginBtn.click();
+    }
+
 }
 

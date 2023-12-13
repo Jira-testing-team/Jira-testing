@@ -9,4 +9,4 @@ Feature: Assign users to groups via UI
     Examples:
       | username | password | user      | groupName               |
       | "jzjz"   | "jzjz"   | "bob"     | "jira-ui-test-basic"    |
-      | "bob"    | "bob123" | "thecptn" | "jira-ui-test-advanced" |
+      | "bob"    | "bob123" | "jzjz"    | "jira-ui-test-advanced" |

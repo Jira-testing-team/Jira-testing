@@ -45,7 +45,7 @@ public class BoardPO extends BasePO {
 
     public void clickJiraIssue(String ticketNumber) {
         driver.findElement(By.xpath("//span[text()='-" + ticketNumber + "']")).click();
-        driver.findElement(By.xpath("//a[contains(text(), '-" + ticketNumber + "')]")).click();
+        driver.findElement(By.xpath("//a[text()='JIR-" + ticketNumber + "']")).click();
     }
 
     public void clickIssueStep(String stepName) {

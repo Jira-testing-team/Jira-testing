@@ -1,6 +1,7 @@
 package stepDef.ui.group;
 
 import driver.DriverFactory;
+import io.cucumber.java.After;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -10,6 +11,7 @@ import org.testng.Assert;
 import pages.DashboardPO;
 import pages.LoginPO;
 import pages.UserManagementPO;
+import stepDef.Base;
 
 import java.util.List;
 
@@ -27,9 +29,9 @@ public class FilterUsersByGroupStepsUI {
     }
 
     @Given("I am logged on with {string} and {string} and on the users browsers page")
-    public void iAmOnTheUsersBrowsersPage(String username, String password) {
+    public void iAmOnTheUsersBrowsersPage(String username, String password) throws InterruptedException {
         driver.navigate().to(loginPO.URL);
-        loginPO.login(username, password);
+        loginPO.slowLogin(username, password);
         dashboardPO.clickSettingBtn();
         dashboardPO.clickUsermanagementBtn();
         userBrowserPO.enterPassword(password);
@@ -53,5 +55,10 @@ public class FilterUsersByGroupStepsUI {
         for(String group : userGroups) {
             Assert.assertEquals(group, groupName);
         }
+    }
+
+    @After
+    public void teardown() {
+        DriverFactory.teardown();
     }
 }

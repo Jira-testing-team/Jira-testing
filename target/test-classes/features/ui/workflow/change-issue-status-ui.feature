@@ -7,7 +7,7 @@ Feature: Change the status of an issue
     Then the status of the issue should be "Resolved"
     Examples:
       | username | password | issueNumber |
-      | "jzjz"   | "jzjz"   | "15"        |
+      | "jzjz"   | "jzjz"   | "3"        |
 
   Scenario Outline: As a QA user, I can change issues from "Resolved" to "Closed"
     Given I am logged in as a QA user with <username> and <password>
@@ -17,4 +17,4 @@ Feature: Change the status of an issue
     Then the status should be "Closed"
     Examples:
       | username | password | issueNumber |
-      | "bob"    | "bob123" | "15"        |
+      | "bob"    | "bob123" | "3"        |

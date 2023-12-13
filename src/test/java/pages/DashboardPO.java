@@ -45,6 +45,8 @@ public class DashboardPO extends BasePO{
     @FindBy(id = "ghx-manageviews-mlink_lnk")
     public WebElement projectBoardButton;
 
+    @FindBy(id = "project_view_all_link_lnk")
+    private WebElement viewAllProjectsBtn;
 
     public void clickSettingBtn() {
         settingBtn.click();
@@ -53,6 +55,10 @@ public class DashboardPO extends BasePO{
     public void clickUsermanagementBtn() {
         userManagementBtn.click();
     }
+
+    public void clickProjects() { projectsBtn.click(); }
+
+    public void clickViewAllProjects() { viewAllProjectsBtn.click(); }
 
     public void clickProjectsBtn() {projectsBtn.click();}
 

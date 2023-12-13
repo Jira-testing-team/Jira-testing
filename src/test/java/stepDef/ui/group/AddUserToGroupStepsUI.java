@@ -1,6 +1,7 @@
 package stepDef.ui.group;
 
 import driver.DriverFactory;
+import io.cucumber.java.After;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -8,6 +9,7 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import pages.*;
+import stepDef.Base;
 
 import java.util.List;
 
@@ -29,9 +31,9 @@ public class AddUserToGroupStepsUI {
     }
 
     @Given("I am logged in with {string} and {string} and on the group browser page")
-    public void iAmOnTheGroupBrowserPage(String username, String password) {
+    public void iAmOnTheGroupBrowserPage(String username, String password) throws InterruptedException {
         driver.navigate().to(loginPO.URL);
-        loginPO.login(username, password);
+        loginPO.slowLogin(username, password);
         dashboardPO.clickSettingBtn();
         dashboardPO.clickUsermanagementBtn();
         groupBrowserPO.enterPassword(password);

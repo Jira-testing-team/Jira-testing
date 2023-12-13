@@ -27,8 +27,9 @@ public class ChangeIssueStatusStepsUI {
     }
 
     @Given("I am logged in as a developer with {string} and {string}")
-    public void iAmLoggedInAsADeveloperWithUsernameAndPassword(String username, String password) {
-        loginPO.login(username, password);
+    public void iAmLoggedInAsADeveloperWithUsernameAndPassword(String username, String password) throws InterruptedException {
+        driver.navigate().to(loginPO.URL);
+        loginPO.slowLogin(username, password);
     }
 
     @When("I am on the dashboard page and click the boards button and click on view all boards")
@@ -59,6 +60,7 @@ public class ChangeIssueStatusStepsUI {
 
     @Given("I am logged in as a QA user with {string} and {string}")
     public void iAmLoggedInAsAQAUserWithUsernameAndPassword(String username, String password) {
+        driver.navigate().to(loginPO.URL);
         loginPO.login(username, password);
     }
 

@@ -4,16 +4,9 @@ import org.testng.annotations.DataProvider;
 
 
 @CucumberOptions(
-        features = {"src/test/resources/features/api/user/createUserAPI.feature",
-                    "src/test/resources/features/api/user/updateUserAPI.feature",
-                    "src/test/resources/features/api/user/assignUserGroupAPI.feature"},
-        glue = {"stepDef"},
-        tags = "@UserAPI"
+        features = {"src/test/resources/features/api/user"},
+        glue = {"stepDef"}
 )
 public class UserAPITestRunner extends AbstractTestNGCucumberTests {
-//    @DataProvider(parallel = true)
-//    @Override
-//    public Object[][] scenarios() {
-//        return super.scenarios();
-//    }
+
 }

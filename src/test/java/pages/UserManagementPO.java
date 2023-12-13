@@ -59,9 +59,6 @@ public class UserManagementPO extends BasePO{
     @FindAll(@FindBy(xpath = "//div[@id='user-filter-group-suggestions']/div/ul/child::li"))
     public List<WebElement> listOfGroups;
 
-    @FindAll(@FindBy(xpath = "//td[@data-cell-type='user-groups']/ul/li/a[contains(text(), 'admin')]"))
-    public List<WebElement> listOfUserGroups;
-
     @FindBy(xpath = "//b[text()='QA']")
     private WebElement QAOptionInAssign;
 
@@ -160,10 +157,11 @@ public class UserManagementPO extends BasePO{
         }
     }
 
-    public List<String> getAllUserGroups() {
+    public List<String> getAllUserGroups(String groupName) {
         List<String> result = new ArrayList<>();
-        for(WebElement groupName : listOfUserGroups) {
-            result.add(groupName.getText());
+        List<WebElement> list = driver.findElements(By.xpath("//td[@data-cell-type='user-groups']/ul/li/a[contains(text(), '"+ groupName +"')]"));
+        for(WebElement group : list) {
+            result.add(group.getText());
         }
         return result;
     }

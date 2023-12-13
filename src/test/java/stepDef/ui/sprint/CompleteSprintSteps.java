@@ -29,7 +29,8 @@ public class CompleteSprintSteps {
     }
 
     @Then("I should see there are no active sprints displayed in active sprints tab")
-    public void I_should_see_there_are_no_active_sprints_displayed_in_active_sprints_tab() {
+    public void I_should_see_there_are_no_active_sprints_displayed_in_active_sprints_tab() throws InterruptedException {
+        Thread.sleep(1000);
         mainPagePO.clickActiveSprintsBtn();
         WebDriver driver = DriverFactory.getDriver();
         String actual = driver.findElement(By.xpath("//h3")).getText();

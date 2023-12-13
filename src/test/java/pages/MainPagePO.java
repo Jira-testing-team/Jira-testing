@@ -93,7 +93,7 @@ public class MainPagePO extends BasePO{
     public void clickCreate() {
         createSprintBtn.click();
     }
-    public void createSprint(String name) {
+    public void createSprint(String name) throws InterruptedException {
         sprintNameInput.clear();
         sprintNameInput.sendKeys(name);
         sprintNameInput.sendKeys(Keys.RETURN);

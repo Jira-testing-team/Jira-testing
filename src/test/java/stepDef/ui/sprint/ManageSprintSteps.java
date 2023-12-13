@@ -46,7 +46,7 @@ public class ManageSprintSteps {
         mainPagePO.clickCreateSprintBtn();
     }
     @And("I enter the {string} and click confirm")
-    public void i_enter_the_and_click_confirm(String sprintName) {
+    public void i_enter_the_and_click_confirm(String sprintName) throws InterruptedException {
         mainPagePO.createSprint(sprintName);
     }
     @And("I create an issue in that sprint")
@@ -59,10 +59,13 @@ public class ManageSprintSteps {
         mainPagePO.clickStartBtn();
     }
     @Then("I should be able to see {string} appears in the sprints group")
-    public void i_should_be_able_to_see_appears_in_the_sprints_group(String sprintName) {
+    public void i_should_be_able_to_see_appears_in_the_sprints_group(String sprintName) throws InterruptedException {
         mainPagePO.clickBacklog();
+        Thread.sleep(2000);
         WebElement sprintGroup = driver.findElement(By.xpath("//div[@class='ghx-sprint-group']"));
         List<WebElement> sprints = sprintGroup.findElements(By.xpath("./child::div[@data-sprint-id]"));
+        System.out.println(sprints.get(0).getText());
+        Thread.sleep(2000);
         boolean hasSprint = false;
         for(int i = 0; i < sprints.size(); i++) {
             WebElement sprint = sprintGroup.findElement(By.xpath("./child::div[@data-sprint-id][" + (i+1) + "]"));
@@ -72,6 +75,7 @@ public class ManageSprintSteps {
                 break;
             }
         }
+        Thread.sleep(2000);
         assertTrue(hasSprint);
     }
 }

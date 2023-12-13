@@ -1,6 +1,7 @@
 package stepDef.api.user;
 
 import api.UserAPI;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -11,6 +12,7 @@ import java.util.HashMap;
 
 import static io.restassured.RestAssured.given;
 import static org.testng.Assert.assertEquals;
+
 
 public class CreateUserAPISteps {
     UserAPI userAPI;

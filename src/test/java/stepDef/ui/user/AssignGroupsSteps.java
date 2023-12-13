@@ -24,7 +24,10 @@ public class AssignGroupsSteps {
     }
     @Then("I should be able to see user with {string} appears when I apply the filter of {string} group")
     public void i_should_be_able_to_see_user_with_appears_when_i_apply_the_filter_of_group(String username, String group) {
+        System.out.println("before apply filter");
         userManagementPO.applyFilterByGroups(group);
+        System.out.println("before assert");
         assertTrue(userManagementPO.hasUser(username));
+        System.out.println("after assert");
     }
 }

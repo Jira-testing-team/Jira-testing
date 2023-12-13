@@ -3,6 +3,6 @@ Feature: Filter users by group via API as admin user
     When I am logged in as an admin with <username> and <password> and fetch users by the group <groupName>
     Then I should receive a 200 status code
     Examples:
-      | username | password | groupName             |
-      | "jzjz"   | "jzjz"   | "jira-administrators" |
-      | "bob"    | "bob123" | "jira-software-users" |
+      | username | password | groupName         |
+      | "jzjz"   | "jzjz"   | "paid-jira-user"  |
+      | "bob"    | "bob123" | "basic-jira-user" |

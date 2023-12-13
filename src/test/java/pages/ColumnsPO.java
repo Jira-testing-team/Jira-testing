@@ -55,7 +55,6 @@ public class ColumnsPO extends BasePO {
     }
 
     public void addAndDeleteColumns() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         List<String> correctOrderList = new ArrayList<>();
         correctOrderList.add("To Do");
         correctOrderList.add("In Progress");
@@ -88,15 +87,16 @@ public class ColumnsPO extends BasePO {
     public void dragStatusToColumn() throws InterruptedException {
         List<WebElement> listOfStatuses = driver.findElements(By.xpath("//ul[@class='ghx-column-wrapper ghx-fixed-column ghx-config-status ghx-unmapped ui-sortable']//div[@class='ghx-lozenge-wrap']/span"));
         List<String> statusNames = new ArrayList<>();
-        Actions actions = new Actions(driver);
-        for(WebElement status : listOfStatuses) {
-            statusNames.add((capitalizeWord(status.getText())));
+        if(!listOfStatuses.isEmpty()) {
+            Actions actions = new Actions(driver);
+            for(WebElement status : listOfStatuses) {
+                statusNames.add((capitalizeWord(status.getText())));
+            }
+            for (String statusName : statusNames) {
+                Thread.sleep(1000);
+                actions.dragAndDrop(driver.findElement(By.xpath("//span[text()='" + statusName + "']")), driver.findElement(By.xpath("//h3[text()='" + statusName + "']"))).perform();
+            }
         }
-        for (String statusName : statusNames) {
-            Thread.sleep(1000);
-            actions.dragAndDrop(driver.findElement(By.xpath("//span[text()='" + statusName + "']")), driver.findElement(By.xpath("//h3[text()='" + statusName + "']"))).perform();
-        }
+        backToBoardButton.click();
     }
-
-    public void clickBackToBoardButton () {backToBoardButton.click();}
 }

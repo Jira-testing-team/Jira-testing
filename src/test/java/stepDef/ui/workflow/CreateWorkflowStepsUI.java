@@ -36,8 +36,9 @@ public class CreateWorkflowStepsUI {
     }
 
     @Given("I logged in as an admin with {string} and {string}")
-    public void iLoggedInAsAnAdminWithUsernameAndPassword(String username, String password) {
-        loginPO.login(username, password);
+    public void iLoggedInAsAnAdminWithUsernameAndPassword(String username, String password) throws InterruptedException {
+        driver.navigate().to(loginPO.URL);
+        loginPO.slowLogin(username, password);
     }
 
     @When("I am on the dashboard page and click on the settings then issues button")

@@ -21,5 +21,5 @@ Feature: Edit columns in scrum board
     Then the order of the columns we edited should appear correctly with the issues shown below
     Examples:
       | username | password | workflowName       |
-      | "jzjz"   | "jzjz"   | "workflow-test-01" |
-      | "bob"    | "bob123" | "workflow-test-12" |
+      | "jzjz"   | "jzjz"   | "workflow-5" |
+      | "bob"    | "bob123" | "workflow-6" |

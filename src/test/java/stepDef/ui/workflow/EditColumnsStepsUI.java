@@ -1,6 +1,7 @@
 package stepDef.ui.workflow;
 
 import driver.DriverFactory;
+import io.cucumber.java.After;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -34,8 +35,9 @@ public class EditColumnsStepsUI {
     }
 
     @Given("I am logged in with {string} and {string}")
-    public void iAmLoggedInWithUsernameAndPassword(String username, String password) {
-        loginPO.login(username, password);
+    public void iAmLoggedInWithUsernameAndPassword(String username, String password) throws InterruptedException {
+        driver.navigate().to(loginPO.URL);
+        loginPO.slowLogin(username, password);
     }
 
     @When("I am on the dashboard page and click settings button and click issues button")
@@ -129,7 +131,6 @@ public class EditColumnsStepsUI {
 
     @And("click back to board")
     public void clickBackToBoard() {
-        columnsPO.clickBackToBoardButton();
         boardPO.clickSprintBoardButton();
     }
 
@@ -144,5 +145,10 @@ public class EditColumnsStepsUI {
         for(int i = 0; i < actualResults.size(); i++) {
             Assert.assertEquals(actualResults.get(i), expectedResults.get(i));
         }
+    }
+
+    @After
+    public void teardown() {
+        DriverFactory.teardown();
     }
 }

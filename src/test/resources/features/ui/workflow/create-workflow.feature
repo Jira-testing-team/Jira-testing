@@ -20,5 +20,5 @@ Feature: Create jira workflow
     Then my workflow structure should match the sequential order of the step names
     Examples:
       | username | password | workflowName       |
-      | "jzjz"   | "jzjz"   | "workflow-test-33" |
-      | "bob"    | "bob123" | "workflow-test-44" |
+      | "jzjz"   | "jzjz"   | "workflow-5" |
+      | "bob"    | "bob123" | "workflow-6" |

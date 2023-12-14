@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Dec 14 02:17:10 EST 2023</td>
+<td>Started on:</td><td>Thu Dec 14 02:52:17 EST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>1 seconds (1990 ms)</td>
+<tr><td>Total time:</td><td>2 seconds (2083 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,6 +75,25 @@ function toggleAllBoxes() {
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
+<tr>
+<td title='GroupAPITestRunner.runScenario()'><b>runScenario</b><br>Test class: GroupAPITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "As an admin user, I can assign a user to different groups and confirm by fetching group members", "Assign a user to a group via API as admin user"</td>
+<td><div><pre>java.lang.AssertionError: expected [201] but found [400]
+	at stepDef.api.group.AddUserToGroupStepsAPI.iAmLoggedInAsAnAdminWithUsernameAndPasswordAndAddAUserAddedUserToTheGroupNameGroup(AddUserToGroupStepsAPI.java:18)
+	at ✽.I am logged in as an admin with &quot;bob&quot; and &quot;bob123&quot; and add a user &quot;jzjz&quot; to the &quot;paid-jira-user&quot; group(classpath:features/api/group/b-assign-users-to-group-api.feature:4)
+... Removed 7 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace314622131", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace314622131'><pre>java.lang.AssertionError: expected [201] but found [400]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at stepDef.api.group.AddUserToGroupStepsAPI.iAmLoggedInAsAnAdminWithUsernameAndPasswordAndAddAUserAddedUserToTheGroupNameGroup(AddUserToGroupStepsAPI.java:18)
+	at ✽.I am logged in as an admin with &quot;bob&quot; and &quot;bob123&quot; and add a user &quot;jzjz&quot; to the &quot;paid-jira-user&quot; group(classpath:features/api/group/b-assign-users-to-group-api.feature:4)
+</pre></div></td>
+<td>0</td>
+<td>GroupAPITestRunner@291ae</td></tr>
 <tr>
 <td title='GroupAPITestRunner.runScenario()'><b>runScenario</b><br>Test class: GroupAPITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "As an admin user, I can create a group and confirm it later by fetching a list of groups", "Create a group via API as admin user"</td>
 <td><div><pre>java.lang.AssertionError: expected [201] but found [400]
@@ -95,6 +114,25 @@ function toggleAllBoxes() {
 <td>1</td>
 <td>GroupAPITestRunner@291ae</td></tr>
 <tr>
+<td title='GroupAPITestRunner.runScenario()'><b>runScenario</b><br>Test class: GroupAPITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "As an admin user, I can assign a user to different groups and confirm by fetching group members", "Assign a user to a group via API as admin user"</td>
+<td><div><pre>java.lang.AssertionError: expected [201] but found [400]
+	at stepDef.api.group.AddUserToGroupStepsAPI.iAmLoggedInAsAnAdminWithUsernameAndPasswordAndAddAUserAddedUserToTheGroupNameGroup(AddUserToGroupStepsAPI.java:18)
+	at ✽.I am logged in as an admin with &quot;jzjz&quot; and &quot;jzjz&quot; and add a user &quot;bob&quot; to the &quot;basic-jira-user&quot; group(classpath:features/api/group/b-assign-users-to-group-api.feature:4)
+... Removed 7 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1234654510", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1234654510'><pre>java.lang.AssertionError: expected [201] but found [400]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at stepDef.api.group.AddUserToGroupStepsAPI.iAmLoggedInAsAnAdminWithUsernameAndPasswordAndAddAUserAddedUserToTheGroupNameGroup(AddUserToGroupStepsAPI.java:18)
+	at ✽.I am logged in as an admin with &quot;jzjz&quot; and &quot;jzjz&quot; and add a user &quot;bob&quot; to the &quot;basic-jira-user&quot; group(classpath:features/api/group/b-assign-users-to-group-api.feature:4)
+</pre></div></td>
+<td>0</td>
+<td>GroupAPITestRunner@291ae</td></tr>
+<tr>
 <td title='GroupAPITestRunner.runScenario()'><b>runScenario</b><br>Test class: GroupAPITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "As an admin user, I can create a group and confirm it later by fetching a list of groups", "Create a group via API as admin user"</td>
 <td><div><pre>java.lang.AssertionError: expected [201] but found [400]
 	at stepDef.api.group.CreateGroupStepsAPI.iAmLoggedInAsAnAdminWithUsernameAndPassword(CreateGroupStepsAPI.java:19)
@@ -111,6 +149,25 @@ function toggleAllBoxes() {
 	at stepDef.api.group.CreateGroupStepsAPI.iAmLoggedInAsAnAdminWithUsernameAndPassword(CreateGroupStepsAPI.java:19)
 	at ✽.I am logged in as an admin with &quot;bob&quot; and &quot;bob123&quot; and create a group with the name &quot;paid-jira-user&quot;(classpath:features/api/group/a-create-groups-api.feature:4)
 </pre></div></td>
+<td>0</td>
+<td>GroupAPITestRunner@291ae</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='GroupAPITestRunner.runScenario()'><b>runScenario</b><br>Test class: GroupAPITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "As an admin user, I can filter users by their group name by fetching it", "Filter users by group via API as admin user"</td>
+<td></td>
+<td>0</td>
+<td>GroupAPITestRunner@291ae</td></tr>
+<tr>
+<td title='GroupAPITestRunner.runScenario()'><b>runScenario</b><br>Test class: GroupAPITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "As an admin user, I can filter users by their group name by fetching it", "Filter users by group via API as admin user"</td>
+<td></td>
 <td>0</td>
 <td>GroupAPITestRunner@291ae</td></tr>
 </table><p>

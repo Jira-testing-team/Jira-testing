@@ -1,3 +1,4 @@
+@add
 Feature: Assign a user to a group via API as admin user
   Scenario Outline: As an admin user, I can assign a user to different groups and confirm by fetching group members
     When I am logged in as an admin with <username> and <password> and add a user <addedUser> to the <groupName> group

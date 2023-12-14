@@ -5,7 +5,9 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
         features = {"src/test/resources/features/api/user"},
-        glue = {"stepDef"}
+        glue = {"stepDef"},
+        plugin = "json:target/cucumber.json",
+        tags = "@user"
 )
 public class UserAPITestRunner extends AbstractTestNGCucumberTests {
 

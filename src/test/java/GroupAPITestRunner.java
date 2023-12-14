@@ -4,7 +4,8 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         features = "classpath:features/api/group",
         glue = "classpath:stepDef/api/group",
-        plugin = "json:target/cucumber.json"
+        plugin = "json:target/cucumber.json",
+        tags = "@group"
 )
 
 public class GroupAPITestRunner extends AbstractTestNGCucumberTests {

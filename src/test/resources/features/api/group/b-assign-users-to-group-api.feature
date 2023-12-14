@@ -6,5 +6,5 @@ Feature: Assign a user to a group via API as admin user
     Then the user <addedUser> I added should be in the list of users
     Examples:
       | username | password | addedUser | groupName         |
-      | "jzjz"   | "jzjz"   | "bob"     | "basic-jira-user" |
-      | "bob"    | "bob123" | "jzjz"    | "paid-jira-user"  |
+      | "jzjz"   | "jzjz"   | "bob123"  | "basic-jira-user" |
+      | "admin"  | "admin"  | "jzjz"    | "paid-jira-user"  |

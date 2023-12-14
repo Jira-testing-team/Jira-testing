@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.876" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.314" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\JiaXiangZhang\AppData\Local\Temp\surefire11168416949311234124\surefirebooter-20231214050333072_3.jar C:\Users\JiaXiangZhang\AppData\Local\Temp\surefire11168416949311234124 2023-12-14T05-03-32_930-jvmRun1 surefire-20231214050333072_1tmp surefire_0-20231214050333072_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\JiaXiangZhang\AppData\Local\Temp\surefire10764393352053580239\surefirebooter-20231214052936915_3.jar C:\Users\JiaXiangZhang\AppData\Local\Temp\surefire10764393352053580239 2023-12-14T05-29-36_755-jvmRun1 surefire-20231214052936915_1tmp surefire_0-20231214052936915_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\JiaXiangZhang\Desktop\BeaconFire\Jira-testing\target\test-classes;C:\Users\JiaXiangZhang\Desktop\BeaconFire\Jira-testing\target\classes;C:\Users\JiaXiangZhang\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\JiaXiangZhang\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\JiaXiangZhang\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\JiaXiangZhang\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\JiaXiangZhang\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\JiaXiangZhang\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\JiaXiangZhang\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\JiaXiangZhang\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\JiaXiangZhang\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\JiaXiangZhang\.m2\repository\io\rest-assured\json-schema-validator\5.3.2\json-schema-validator-5.3.2.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\JiaXiangZhang\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\JiaXiangZhang\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\JiaXiangZhang\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\JiaXiangZhang\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\JiaXiangZhang\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\JiaXiangZhang\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\JiaXiangZhang\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\JiaXiangZhang\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\JiaXiangZhang\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\JiaXiangZhang\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\JiaXiangZhang\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\poi\poi\5.1.0\poi-5.1.0.jar;C:\Users\JiaXiangZhang\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\JiaXiangZhang\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\poi\poi-ooxml\5.1.0\poi-ooxml-5.1.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\poi\poi-ooxml-lite\5.1.0\poi-ooxml-lite-5.1.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.2\xmlbeans-5.0.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\JiaXiangZhang\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\JiaXiangZhang\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\JiaXiangZhang\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\JiaXiangZhang\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\JiaXiangZhang\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\JiaXiangZhang\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\JiaXiangZhang\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\JiaXiangZhang\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\JiaXiangZhang\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\JiaXiangZhang\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\JiaXiangZhang\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\JiaXiangZhang\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\JiaXiangZhang\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,10 +30,9 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\JiaXiangZhang\AppData\Local\Temp\surefire11168416949311234124\surefirebooter-20231214050333072_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\JiaXiangZhang\AppData\Local\Temp\surefire10764393352053580239\surefirebooter-20231214052936915_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="cucumber.plugin" value="json:target/cucumber-issue.json"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>
     <property name="user.name" value="JiaXiangZhang"/>
     <property name="stdout.encoding" value="Cp1252"/>
@@ -60,33 +59,33 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="runScenario[&quot;I can create 2 issues in the project,&quot;, &quot;Create issues that belong to different epics and priorities in an existing project using API&quot;](1)" classname="IssueAPITestRunner" time="1.723">
+  <testcase name="runScenario[&quot;I can create 2 issues in the project,&quot;, &quot;Create issues that belong to different epics and priorities in an existing project using API&quot;](1)" classname="IssueAPITestRunner" time="1.762">
     <system-out><![CDATA[HTTP/1.1 200 
-X-AREQUESTID: 303x18524x1
+X-AREQUESTID: 329x19114x1
 Referrer-Policy: strict-origin-when-cross-origin
 X-XSS-Protection: 1; mode=block
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 Content-Security-Policy: sandbox
 Strict-Transport-Security: max-age=31536000
-Set-Cookie: JSESSIONID=5135CAFB5903DDBE1962C6D95C5549A6; Path=/; HttpOnly
+Set-Cookie: JSESSIONID=C0D4CBDEE742DAA0D00A07E8921C0CC3; Path=/; HttpOnly
 X-Seraph-LoginReason: OK
-Set-Cookie: atlassian.xsrf.token=B5LV-4P6S-7VFS-39Z6_d33da238682363792c24986652deb9da9fbae1a1_lin; Path=/
-X-ASESSIONID: 1u93ry9
+Set-Cookie: atlassian.xsrf.token=B5LV-4P6S-7VFS-39Z6_3262995048607c0938c1c325af405b09301c3cc4_lin; Path=/
+X-ASESSIONID: 18399g8
 X-AUSERNAME: admin
 Cache-Control: no-cache, no-store, no-transform
 Content-Encoding: gzip
 Vary: User-Agent
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Thu, 14 Dec 2023 10:03:35 GMT
+Date: Thu, 14 Dec 2023 10:29:39 GMT
 Keep-Alive: timeout=20
 Connection: keep-alive
 
 {
     "expand": "description,lead,url,projectKeys",
-    "self": "http://localhost:8080/rest/api/2/project/10200",
-    "id": "10200",
+    "self": "http://localhost:8080/rest/api/2/project/10201",
+    "id": "10201",
     "key": "SCRUMPROJ3",
     "description": "",
     "lead": {
@@ -155,8 +154,8 @@ Connection: keep-alive
     ],
     "name": "Project3",
     "roles": {
-        "Administrators": "http://localhost:8080/rest/api/2/project/10200/role/10002",
-        "Developer": "http://localhost:8080/rest/api/2/project/10200/role/10100"
+        "Administrators": "http://localhost:8080/rest/api/2/project/10201/role/10002",
+        "Developer": "http://localhost:8080/rest/api/2/project/10201/role/10100"
     },
     "avatarUrls": {
         "48x48": "http://localhost:8080/secure/projectavatar?avatarId=10324",
@@ -168,31 +167,31 @@ Connection: keep-alive
     "archived": false
 }
 HTTP/1.1 201 
-X-AREQUESTID: 303x18525x1
+X-AREQUESTID: 329x19115x1
 Referrer-Policy: strict-origin-when-cross-origin
 X-XSS-Protection: 1; mode=block
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 Content-Security-Policy: sandbox
 Strict-Transport-Security: max-age=31536000
-Set-Cookie: JSESSIONID=B02B229825538C602CF8993ED607B815; Path=/; HttpOnly
+Set-Cookie: JSESSIONID=39A1166F5D26E074D1B39A720F75BD69; Path=/; HttpOnly
 X-Seraph-LoginReason: OK
-Set-Cookie: atlassian.xsrf.token=B5LV-4P6S-7VFS-39Z6_bec656365a6996043c714d6b569487468156c8c7_lin; Path=/
-X-ASESSIONID: 1h9feie
+Set-Cookie: atlassian.xsrf.token=B5LV-4P6S-7VFS-39Z6_28e2b6d12e594ae5b029e0d3641467f53e5fb3ac_lin; Path=/
+X-ASESSIONID: ztknig
 X-AUSERNAME: admin
 Cache-Control: no-cache, no-store, no-transform
 Content-Encoding: gzip
 Vary: User-Agent
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Thu, 14 Dec 2023 10:03:35 GMT
+Date: Thu, 14 Dec 2023 10:29:39 GMT
 Keep-Alive: timeout=20
 Connection: keep-alive
 
 {
-    "id": "10117",
-    "key": "SCRUMPROJ3-18",
-    "self": "http://localhost:8080/rest/api/2/issue/10117"
+    "id": "10122",
+    "key": "SCRUMPROJ3-2",
+    "self": "http://localhost:8080/rest/api/2/issue/10122"
 }
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
@@ -200,33 +199,33 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;I can create 2 issues in the project,&quot;, &quot;Create issues that belong to different epics and priorities in an existing project using API&quot;](2)" classname="IssueAPITestRunner" time="0.087">
+  <testcase name="runScenario[&quot;I can create 2 issues in the project,&quot;, &quot;Create issues that belong to different epics and priorities in an existing project using API&quot;](2)" classname="IssueAPITestRunner" time="0.097">
     <system-out><![CDATA[HTTP/1.1 200 
-X-AREQUESTID: 303x18526x1
+X-AREQUESTID: 329x19116x1
 Referrer-Policy: strict-origin-when-cross-origin
 X-XSS-Protection: 1; mode=block
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 Content-Security-Policy: sandbox
 Strict-Transport-Security: max-age=31536000
-Set-Cookie: JSESSIONID=737E50AFF420FAD1DEE14A008C479BC7; Path=/; HttpOnly
+Set-Cookie: JSESSIONID=67A838FA32A902F294764F6C1826BBF8; Path=/; HttpOnly
 X-Seraph-LoginReason: OK
-Set-Cookie: atlassian.xsrf.token=B5LV-4P6S-7VFS-39Z6_02ec11fc585eefae5b734861d8e586e2f5843c13_lin; Path=/
-X-ASESSIONID: 1p7szsd
+Set-Cookie: atlassian.xsrf.token=B5LV-4P6S-7VFS-39Z6_679a61a5bb332b4d904e95d42ca4908e78c8f858_lin; Path=/
+X-ASESSIONID: gu7teg
 X-AUSERNAME: admin
 Cache-Control: no-cache, no-store, no-transform
 Content-Encoding: gzip
 Vary: User-Agent
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Thu, 14 Dec 2023 10:03:35 GMT
+Date: Thu, 14 Dec 2023 10:29:39 GMT
 Keep-Alive: timeout=20
 Connection: keep-alive
 
 {
     "expand": "description,lead,url,projectKeys",
-    "self": "http://localhost:8080/rest/api/2/project/10200",
-    "id": "10200",
+    "self": "http://localhost:8080/rest/api/2/project/10201",
+    "id": "10201",
     "key": "SCRUMPROJ3",
     "description": "",
     "lead": {
@@ -295,8 +294,8 @@ Connection: keep-alive
     ],
     "name": "Project3",
     "roles": {
-        "Administrators": "http://localhost:8080/rest/api/2/project/10200/role/10002",
-        "Developer": "http://localhost:8080/rest/api/2/project/10200/role/10100"
+        "Administrators": "http://localhost:8080/rest/api/2/project/10201/role/10002",
+        "Developer": "http://localhost:8080/rest/api/2/project/10201/role/10100"
     },
     "avatarUrls": {
         "48x48": "http://localhost:8080/secure/projectavatar?avatarId=10324",
@@ -308,82 +307,82 @@ Connection: keep-alive
     "archived": false
 }
 HTTP/1.1 201 
-X-AREQUESTID: 303x18527x1
+X-AREQUESTID: 329x19117x1
 Referrer-Policy: strict-origin-when-cross-origin
 X-XSS-Protection: 1; mode=block
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 Content-Security-Policy: sandbox
 Strict-Transport-Security: max-age=31536000
-Set-Cookie: JSESSIONID=8679A96CB6AC3C11A239175D8E1ED5D9; Path=/; HttpOnly
+Set-Cookie: JSESSIONID=B1F8B5E212846C05C5AFA45EDCFA6066; Path=/; HttpOnly
 X-Seraph-LoginReason: OK
-Set-Cookie: atlassian.xsrf.token=B5LV-4P6S-7VFS-39Z6_152d860dfbccab163516dbb2851d873aa1942950_lin; Path=/
-X-ASESSIONID: 1p8t30z
+Set-Cookie: atlassian.xsrf.token=B5LV-4P6S-7VFS-39Z6_17728dff884bff8e91eed2165e472c4a5a0340dc_lin; Path=/
+X-ASESSIONID: 9ozktb
 X-AUSERNAME: admin
 Cache-Control: no-cache, no-store, no-transform
 Content-Encoding: gzip
 Vary: User-Agent
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Thu, 14 Dec 2023 10:03:35 GMT
+Date: Thu, 14 Dec 2023 10:29:39 GMT
 Keep-Alive: timeout=20
 Connection: keep-alive
 
 {
-    "id": "10118",
-    "key": "SCRUMPROJ3-19",
-    "self": "http://localhost:8080/rest/api/2/issue/10118"
+    "id": "10123",
+    "key": "SCRUMPROJ3-3",
+    "self": "http://localhost:8080/rest/api/2/issue/10123"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;I can set a link relation between two issues&quot;, &quot;specify if the current issue is blocked by or is blocking other issues by linking issues&quot;](3)" classname="IssueAPITestRunner" time="0.412">
+  <testcase name="runScenario[&quot;I can set a link relation between two issues&quot;, &quot;specify if the current issue is blocked by or is blocking other issues by linking issues&quot;](3)" classname="IssueAPITestRunner" time="0.205">
     <system-out><![CDATA[HTTP/1.1 201 
-X-AREQUESTID: 303x18529x1
+X-AREQUESTID: 329x19119x1
 Referrer-Policy: strict-origin-when-cross-origin
 X-XSS-Protection: 1; mode=block
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 Content-Security-Policy: sandbox
 Strict-Transport-Security: max-age=31536000
-Set-Cookie: JSESSIONID=A54EAE64208CD0B44DAD7BD6C9C1B7DC; Path=/; HttpOnly
+Set-Cookie: JSESSIONID=AEA4453832C43F6B79519B8464AC4816; Path=/; HttpOnly
 X-Seraph-LoginReason: OK
-Set-Cookie: atlassian.xsrf.token=B5LV-4P6S-7VFS-39Z6_11186b3e6f14c584346ab409209ef5b70e653b54_lin; Path=/
-X-ASESSIONID: bt2z06
+Set-Cookie: atlassian.xsrf.token=B5LV-4P6S-7VFS-39Z6_4fbcc043ba8f3be3393992216308e0ab9f9cd715_lin; Path=/
+X-ASESSIONID: mrbt1o
 X-AUSERNAME: admin
-Location: http://localhost:8080/rest/api/2/issueLink/10126
+Location: http://localhost:8080/rest/api/2/issueLink/10132
 Cache-Control: no-cache, no-store, no-transform
 Content-Encoding: gzip
 Vary: User-Agent
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Thu, 14 Dec 2023 10:03:36 GMT
+Date: Thu, 14 Dec 2023 10:29:39 GMT
 Keep-Alive: timeout=20
 Connection: keep-alive
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;I can set a issue to a user&quot;, &quot;assign the current issue to a user&quot;](4)" classname="IssueAPITestRunner" time="0.227">
+  <testcase name="runScenario[&quot;I can set a issue to a user&quot;, &quot;assign the current issue to a user&quot;](4)" classname="IssueAPITestRunner" time="0.131">
     <system-out><![CDATA[HTTP/1.1 204 
-X-AREQUESTID: 303x18531x1
+X-AREQUESTID: 329x19121x1
 Referrer-Policy: strict-origin-when-cross-origin
 X-XSS-Protection: 1; mode=block
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 Content-Security-Policy: sandbox
 Strict-Transport-Security: max-age=31536000
-Set-Cookie: JSESSIONID=AB7CCC2353288AF9F03C3D46A88EE965; Path=/; HttpOnly
+Set-Cookie: JSESSIONID=461440C3DC7B70B9ADD75A8FFC1CE49D; Path=/; HttpOnly
 X-Seraph-LoginReason: OK
-Set-Cookie: atlassian.xsrf.token=B5LV-4P6S-7VFS-39Z6_72a1f8023ccf607d2e076aa5bd633d51e1f2b291_lin; Path=/
-X-ASESSIONID: c5f8x4
+Set-Cookie: atlassian.xsrf.token=B5LV-4P6S-7VFS-39Z6_b5b10f775ef2aa36b98df799bb3fafc44126a75f_lin; Path=/
+X-ASESSIONID: 1s2xgzm
 X-AUSERNAME: admin
 Cache-Control: no-cache, no-store, no-transform
 Content-Type: application/json;charset=UTF-8
-Date: Thu, 14 Dec 2023 10:03:36 GMT
+Date: Thu, 14 Dec 2023 10:29:40 GMT
 Keep-Alive: timeout=20
 Connection: keep-alive
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;I can view all issues assign to me &quot;developer&quot;&quot;, &quot;view all current issues of a user&quot;](5)" classname="IssueAPITestRunner" time="0.177">
+  <testcase name="runScenario[&quot;I can view all issues assign to me &quot;developer&quot;&quot;, &quot;view all current issues of a user&quot;](5)" classname="IssueAPITestRunner" time="0.054">
     <system-out><![CDATA[admin]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;As a user, I can add a comment to an issue, afterward I can edit it&quot;, &quot;Add and Edit comment of an issue&quot;](6)" classname="IssueAPITestRunner" time="0.279"/>
+  <testcase name="runScenario[&quot;As a user, I can add a comment to an issue, afterward I can edit it&quot;, &quot;Add and Edit comment of an issue&quot;](6)" classname="IssueAPITestRunner" time="0.116"/>
 </testsuite>

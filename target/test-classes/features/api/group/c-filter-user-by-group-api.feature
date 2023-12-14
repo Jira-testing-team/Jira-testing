@@ -6,4 +6,4 @@ Feature: Filter users by group via API as admin user
     Examples:
       | username | password | groupName         |
       | "jzjz"   | "jzjz"   | "paid-jira-user"  |
-      | "bob"    | "bob123" | "basic-jira-user" |
+      | "admin"  | "admin"  | "basic-jira-user" |

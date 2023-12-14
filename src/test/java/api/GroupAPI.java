@@ -11,7 +11,7 @@ import static io.restassured.RestAssured.given;
 public class GroupAPI extends BaseAPI {
     public GroupAPI() {requestSpec.basePath("/group");}
 
-    public void createGroup(String username, String password, String groupName) {
+    public Response createGroup(String username, String password, String groupName) {
         Map<String, String> name = new HashMap<>();
         name.put("name", groupName);
         Response response =  given(requestSpec)
@@ -21,9 +21,10 @@ public class GroupAPI extends BaseAPI {
                 .post();
         response.then()
                 .spec(responseSpec);
+        return response;
     }
 
-    public void addUserToGroup(String username, String password, String user, String groupName) {
+    public Response addUserToGroup(String username, String password, String user, String groupName) {
         Map<String, String> name = new HashMap<>();
         name.put("name", user);
         Response response =  given(requestSpec)
@@ -34,6 +35,7 @@ public class GroupAPI extends BaseAPI {
                 .post("/user");
         response.then()
                 .spec(responseSpec);
+        return response;
     }
 
     public Response getUsersFromGroup(String username, String password, String groupName) {

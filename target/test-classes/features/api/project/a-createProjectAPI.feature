@@ -1,4 +1,4 @@
-@ProjectAPITest
+@project
 
 Feature: Create a project with a existing permission schema using APIs
   Scenario Outline: I can create a project, afterward I can fetch it using projectId

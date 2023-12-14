@@ -1,3 +1,4 @@
+@project
 Feature: Create an Epic in an existing project using API
   Scenario Outline: I can create an epic in project
     Given I have project key and epicId of project <projectKey>

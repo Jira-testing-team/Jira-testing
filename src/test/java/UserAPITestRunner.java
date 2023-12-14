@@ -5,7 +5,7 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
         features = {"src/test/resources/features/api/user"},
-        glue = {"stepDef"},
+        glue = {"stepDef.api.user"},
         plugin = "json:target/cucumber.json",
         tags = "@user"
 )

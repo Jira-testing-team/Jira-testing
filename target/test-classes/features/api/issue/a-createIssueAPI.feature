@@ -1,3 +1,4 @@
+@issue
 Feature: Create issues that belong to different epics and priorities in an existing project using API
   Scenario Outline: I can create 2 issues in the project,
     Given I have project key, priority levels, epicId and storyId of project <projectKey>

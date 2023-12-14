@@ -7,4 +7,4 @@ Feature: Add a user to an existing project
 
     Examples:
       |projectKey   |username   |role       |
-      |"SCRUMPROJ3" |"developer"|"developer"|
+      |"SCRUMPROJ3" |"jzjz"|"developer"|

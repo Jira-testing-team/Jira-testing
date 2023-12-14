@@ -4,8 +4,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         features = "classpath:features/api/issue",
         glue = "classpath:stepDef/api/issue",
-        plugin = "json:target/cucumber.json",
-        tags = "@issue"
+        plugin = "json:target/cucumber-issue.json"
 )
 public class IssueAPITestRunner extends AbstractTestNGCucumberTests {
 

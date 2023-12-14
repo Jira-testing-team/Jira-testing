@@ -8,4 +8,4 @@ Feature: Create a project with a existing permission schema using APIs
 
     Examples:
       | key         |name       |type       |template                                       |lead   |permissionScheme|
-      |"SCRUMPROJ3" |"Project3" |"software" |"com.pyxis.greenhopper.jira:gh-scrum-template" |"lead" |10001           |
+      |"SCRUMPROJ3" |"Project3" |"software" |"com.pyxis.greenhopper.jira:gh-scrum-template" |"admin" |10000           |

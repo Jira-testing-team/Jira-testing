@@ -1,4 +1,4 @@
-@user
+@c
 Feature: Create user API testing
   Scenario Outline: Create a new user
     Given I send the request for creating user with user information as "<name>", "<password>", "<emailAddress>", "<displayName>"

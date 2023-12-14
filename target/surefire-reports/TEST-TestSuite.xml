@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.142" tests="5" errors="0" skipped="0" failures="5">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.876" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\JiaXiangZhang\AppData\Local\Temp\surefire12823043094354629932\surefirebooter-20231214031225061_3.jar C:\Users\JiaXiangZhang\AppData\Local\Temp\surefire12823043094354629932 2023-12-14T03-12-24_909-jvmRun1 surefire-20231214031225061_1tmp surefire_0-20231214031225061_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\JiaXiangZhang\AppData\Local\Temp\surefire11168416949311234124\surefirebooter-20231214050333072_3.jar C:\Users\JiaXiangZhang\AppData\Local\Temp\surefire11168416949311234124 2023-12-14T05-03-32_930-jvmRun1 surefire-20231214050333072_1tmp surefire_0-20231214050333072_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\JiaXiangZhang\Desktop\BeaconFire\Jira-testing\target\test-classes;C:\Users\JiaXiangZhang\Desktop\BeaconFire\Jira-testing\target\classes;C:\Users\JiaXiangZhang\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\JiaXiangZhang\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\JiaXiangZhang\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\JiaXiangZhang\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\JiaXiangZhang\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\JiaXiangZhang\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\JiaXiangZhang\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\JiaXiangZhang\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\JiaXiangZhang\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\JiaXiangZhang\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\JiaXiangZhang\.m2\repository\io\rest-assured\json-schema-validator\5.3.2\json-schema-validator-5.3.2.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\JiaXiangZhang\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\JiaXiangZhang\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\JiaXiangZhang\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\JiaXiangZhang\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\JiaXiangZhang\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\JiaXiangZhang\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\JiaXiangZhang\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\JiaXiangZhang\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\JiaXiangZhang\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\JiaXiangZhang\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\JiaXiangZhang\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\poi\poi\5.1.0\poi-5.1.0.jar;C:\Users\JiaXiangZhang\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\JiaXiangZhang\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\poi\poi-ooxml\5.1.0\poi-ooxml-5.1.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\poi\poi-ooxml-lite\5.1.0\poi-ooxml-lite-5.1.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.2\xmlbeans-5.0.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\JiaXiangZhang\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\JiaXiangZhang\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\JiaXiangZhang\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\JiaXiangZhang\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\JiaXiangZhang\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\JiaXiangZhang\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\JiaXiangZhang\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\JiaXiangZhang\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\JiaXiangZhang\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\JiaXiangZhang\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\JiaXiangZhang\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\JiaXiangZhang\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\JiaXiangZhang\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\JiaXiangZhang\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\JiaXiangZhang\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\JiaXiangZhang\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\JiaXiangZhang\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,9 +30,10 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\JiaXiangZhang\AppData\Local\Temp\surefire12823043094354629932\surefirebooter-20231214031225061_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\JiaXiangZhang\AppData\Local\Temp\surefire11168416949311234124\surefirebooter-20231214050333072_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="cucumber.plugin" value="json:target/cucumber-issue.json"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>
     <property name="user.name" value="JiaXiangZhang"/>
     <property name="stdout.encoding" value="Cp1252"/>
@@ -45,7 +46,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\JIAXIA~1\AppData\Local\Temp\"/>
     <property name="java.version" value="19.0.2"/>
-    <property name="cucumber.filter.tags" value="@user"/>
+    <property name="cucumber.filter.tags" value="@issue"/>
     <property name="user.dir" value="C:\Users\JiaXiangZhang\Desktop\BeaconFire\Jira-testing"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -59,233 +60,330 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Create a new user&quot;, &quot;Create user API testing&quot;](1)" classname="UserAPITestRunner" time="0.069">
-    <failure message="Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()" type="io.cucumber.core.runner.DuplicateStepDefinitionException"><![CDATA[io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()
-	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="runScenario[&quot;I can create 2 issues in the project,&quot;, &quot;Create issues that belong to different epics and priorities in an existing project using API&quot;](1)" classname="IssueAPITestRunner" time="1.723">
+    <system-out><![CDATA[HTTP/1.1 200 
+X-AREQUESTID: 303x18524x1
+Referrer-Policy: strict-origin-when-cross-origin
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: sandbox
+Strict-Transport-Security: max-age=31536000
+Set-Cookie: JSESSIONID=5135CAFB5903DDBE1962C6D95C5549A6; Path=/; HttpOnly
+X-Seraph-LoginReason: OK
+Set-Cookie: atlassian.xsrf.token=B5LV-4P6S-7VFS-39Z6_d33da238682363792c24986652deb9da9fbae1a1_lin; Path=/
+X-ASESSIONID: 1u93ry9
+X-AUSERNAME: admin
+Cache-Control: no-cache, no-store, no-transform
+Content-Encoding: gzip
+Vary: User-Agent
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 14 Dec 2023 10:03:35 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+{
+    "expand": "description,lead,url,projectKeys",
+    "self": "http://localhost:8080/rest/api/2/project/10200",
+    "id": "10200",
+    "key": "SCRUMPROJ3",
+    "description": "",
+    "lead": {
+        "self": "http://localhost:8080/rest/api/2/user?username=admin",
+        "key": "JIRAUSER10302",
+        "name": "admin",
+        "avatarUrls": {
+            "48x48": "https://www.gravatar.com/avatar/64e1b8d34f425d19e1ee2ea7236d3028?d=mm&s=48",
+            "24x24": "https://www.gravatar.com/avatar/64e1b8d34f425d19e1ee2ea7236d3028?d=mm&s=24",
+            "16x16": "https://www.gravatar.com/avatar/64e1b8d34f425d19e1ee2ea7236d3028?d=mm&s=16",
+            "32x32": "https://www.gravatar.com/avatar/64e1b8d34f425d19e1ee2ea7236d3028?d=mm&s=32"
+        },
+        "displayName": "admin",
+        "active": true
+    },
+    "components": [
+        
+    ],
+    "issueTypes": [
+        {
+            "self": "http://localhost:8080/rest/api/2/issuetype/10100",
+            "id": "10100",
+            "description": "A task that needs to be done.",
+            "iconUrl": "http://localhost:8080/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype",
+            "name": "Task",
+            "subtask": false,
+            "avatarId": 10318
+        },
+        {
+            "self": "http://localhost:8080/rest/api/2/issuetype/10000",
+            "id": "10000",
+            "description": "The sub-task of the issue",
+            "iconUrl": "http://localhost:8080/images/icons/issuetypes/subtask_alternate.png",
+            "name": "Sub-task",
+            "subtask": true
+        },
+        {
+            "self": "http://localhost:8080/rest/api/2/issuetype/10002",
+            "id": "10002",
+            "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+            "iconUrl": "http://localhost:8080/images/icons/issuetypes/story.svg",
+            "name": "Story",
+            "subtask": false
+        },
+        {
+            "self": "http://localhost:8080/rest/api/2/issuetype/10101",
+            "id": "10101",
+            "description": "A problem which impairs or prevents the functions of the product.",
+            "iconUrl": "http://localhost:8080/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+            "name": "Bug",
+            "subtask": false,
+            "avatarId": 10303
+        },
+        {
+            "self": "http://localhost:8080/rest/api/2/issuetype/10001",
+            "id": "10001",
+            "description": "Created by Jira Software - do not edit or delete. Issue type for a big user story that needs to be broken down.",
+            "iconUrl": "http://localhost:8080/images/icons/issuetypes/epic.svg",
+            "name": "Epic",
+            "subtask": false
+        }
+    ],
+    "assigneeType": "PROJECT_LEAD",
+    "versions": [
+        
+    ],
+    "name": "Project3",
+    "roles": {
+        "Administrators": "http://localhost:8080/rest/api/2/project/10200/role/10002",
+        "Developer": "http://localhost:8080/rest/api/2/project/10200/role/10100"
+    },
+    "avatarUrls": {
+        "48x48": "http://localhost:8080/secure/projectavatar?avatarId=10324",
+        "24x24": "http://localhost:8080/secure/projectavatar?size=small&avatarId=10324",
+        "16x16": "http://localhost:8080/secure/projectavatar?size=xsmall&avatarId=10324",
+        "32x32": "http://localhost:8080/secure/projectavatar?size=medium&avatarId=10324"
+    },
+    "projectTypeKey": "software",
+    "archived": false
+}
+HTTP/1.1 201 
+X-AREQUESTID: 303x18525x1
+Referrer-Policy: strict-origin-when-cross-origin
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: sandbox
+Strict-Transport-Security: max-age=31536000
+Set-Cookie: JSESSIONID=B02B229825538C602CF8993ED607B815; Path=/; HttpOnly
+X-Seraph-LoginReason: OK
+Set-Cookie: atlassian.xsrf.token=B5LV-4P6S-7VFS-39Z6_bec656365a6996043c714d6b569487468156c8c7_lin; Path=/
+X-ASESSIONID: 1h9feie
+X-AUSERNAME: admin
+Cache-Control: no-cache, no-store, no-transform
+Content-Encoding: gzip
+Vary: User-Agent
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 14 Dec 2023 10:03:35 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+{
+    "id": "10117",
+    "key": "SCRUMPROJ3-18",
+    "self": "http://localhost:8080/rest/api/2/issue/10117"
+}
+]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Create a new user&quot;, &quot;Create user API testing&quot;](2)" classname="UserAPITestRunner" time="0.011">
-    <failure message="Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()" type="io.cucumber.core.runner.DuplicateStepDefinitionException"><![CDATA[io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()
-	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="runScenario[&quot;I can create 2 issues in the project,&quot;, &quot;Create issues that belong to different epics and priorities in an existing project using API&quot;](2)" classname="IssueAPITestRunner" time="0.087">
+    <system-out><![CDATA[HTTP/1.1 200 
+X-AREQUESTID: 303x18526x1
+Referrer-Policy: strict-origin-when-cross-origin
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: sandbox
+Strict-Transport-Security: max-age=31536000
+Set-Cookie: JSESSIONID=737E50AFF420FAD1DEE14A008C479BC7; Path=/; HttpOnly
+X-Seraph-LoginReason: OK
+Set-Cookie: atlassian.xsrf.token=B5LV-4P6S-7VFS-39Z6_02ec11fc585eefae5b734861d8e586e2f5843c13_lin; Path=/
+X-ASESSIONID: 1p7szsd
+X-AUSERNAME: admin
+Cache-Control: no-cache, no-store, no-transform
+Content-Encoding: gzip
+Vary: User-Agent
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 14 Dec 2023 10:03:35 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+{
+    "expand": "description,lead,url,projectKeys",
+    "self": "http://localhost:8080/rest/api/2/project/10200",
+    "id": "10200",
+    "key": "SCRUMPROJ3",
+    "description": "",
+    "lead": {
+        "self": "http://localhost:8080/rest/api/2/user?username=admin",
+        "key": "JIRAUSER10302",
+        "name": "admin",
+        "avatarUrls": {
+            "48x48": "https://www.gravatar.com/avatar/64e1b8d34f425d19e1ee2ea7236d3028?d=mm&s=48",
+            "24x24": "https://www.gravatar.com/avatar/64e1b8d34f425d19e1ee2ea7236d3028?d=mm&s=24",
+            "16x16": "https://www.gravatar.com/avatar/64e1b8d34f425d19e1ee2ea7236d3028?d=mm&s=16",
+            "32x32": "https://www.gravatar.com/avatar/64e1b8d34f425d19e1ee2ea7236d3028?d=mm&s=32"
+        },
+        "displayName": "admin",
+        "active": true
+    },
+    "components": [
+        
+    ],
+    "issueTypes": [
+        {
+            "self": "http://localhost:8080/rest/api/2/issuetype/10100",
+            "id": "10100",
+            "description": "A task that needs to be done.",
+            "iconUrl": "http://localhost:8080/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype",
+            "name": "Task",
+            "subtask": false,
+            "avatarId": 10318
+        },
+        {
+            "self": "http://localhost:8080/rest/api/2/issuetype/10000",
+            "id": "10000",
+            "description": "The sub-task of the issue",
+            "iconUrl": "http://localhost:8080/images/icons/issuetypes/subtask_alternate.png",
+            "name": "Sub-task",
+            "subtask": true
+        },
+        {
+            "self": "http://localhost:8080/rest/api/2/issuetype/10002",
+            "id": "10002",
+            "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+            "iconUrl": "http://localhost:8080/images/icons/issuetypes/story.svg",
+            "name": "Story",
+            "subtask": false
+        },
+        {
+            "self": "http://localhost:8080/rest/api/2/issuetype/10101",
+            "id": "10101",
+            "description": "A problem which impairs or prevents the functions of the product.",
+            "iconUrl": "http://localhost:8080/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+            "name": "Bug",
+            "subtask": false,
+            "avatarId": 10303
+        },
+        {
+            "self": "http://localhost:8080/rest/api/2/issuetype/10001",
+            "id": "10001",
+            "description": "Created by Jira Software - do not edit or delete. Issue type for a big user story that needs to be broken down.",
+            "iconUrl": "http://localhost:8080/images/icons/issuetypes/epic.svg",
+            "name": "Epic",
+            "subtask": false
+        }
+    ],
+    "assigneeType": "PROJECT_LEAD",
+    "versions": [
+        
+    ],
+    "name": "Project3",
+    "roles": {
+        "Administrators": "http://localhost:8080/rest/api/2/project/10200/role/10002",
+        "Developer": "http://localhost:8080/rest/api/2/project/10200/role/10100"
+    },
+    "avatarUrls": {
+        "48x48": "http://localhost:8080/secure/projectavatar?avatarId=10324",
+        "24x24": "http://localhost:8080/secure/projectavatar?size=small&avatarId=10324",
+        "16x16": "http://localhost:8080/secure/projectavatar?size=xsmall&avatarId=10324",
+        "32x32": "http://localhost:8080/secure/projectavatar?size=medium&avatarId=10324"
+    },
+    "projectTypeKey": "software",
+    "archived": false
+}
+HTTP/1.1 201 
+X-AREQUESTID: 303x18527x1
+Referrer-Policy: strict-origin-when-cross-origin
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: sandbox
+Strict-Transport-Security: max-age=31536000
+Set-Cookie: JSESSIONID=8679A96CB6AC3C11A239175D8E1ED5D9; Path=/; HttpOnly
+X-Seraph-LoginReason: OK
+Set-Cookie: atlassian.xsrf.token=B5LV-4P6S-7VFS-39Z6_152d860dfbccab163516dbb2851d873aa1942950_lin; Path=/
+X-ASESSIONID: 1p8t30z
+X-AUSERNAME: admin
+Cache-Control: no-cache, no-store, no-transform
+Content-Encoding: gzip
+Vary: User-Agent
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 14 Dec 2023 10:03:35 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+{
+    "id": "10118",
+    "key": "SCRUMPROJ3-19",
+    "self": "http://localhost:8080/rest/api/2/issue/10118"
+}
+]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Create a new user&quot;, &quot;Create user API testing&quot;](3)" classname="UserAPITestRunner" time="0.012">
-    <failure message="Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()" type="io.cucumber.core.runner.DuplicateStepDefinitionException"><![CDATA[io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()
-	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="runScenario[&quot;I can set a link relation between two issues&quot;, &quot;specify if the current issue is blocked by or is blocking other issues by linking issues&quot;](3)" classname="IssueAPITestRunner" time="0.412">
+    <system-out><![CDATA[HTTP/1.1 201 
+X-AREQUESTID: 303x18529x1
+Referrer-Policy: strict-origin-when-cross-origin
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: sandbox
+Strict-Transport-Security: max-age=31536000
+Set-Cookie: JSESSIONID=A54EAE64208CD0B44DAD7BD6C9C1B7DC; Path=/; HttpOnly
+X-Seraph-LoginReason: OK
+Set-Cookie: atlassian.xsrf.token=B5LV-4P6S-7VFS-39Z6_11186b3e6f14c584346ab409209ef5b70e653b54_lin; Path=/
+X-ASESSIONID: bt2z06
+X-AUSERNAME: admin
+Location: http://localhost:8080/rest/api/2/issueLink/10126
+Cache-Control: no-cache, no-store, no-transform
+Content-Encoding: gzip
+Vary: User-Agent
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 14 Dec 2023 10:03:36 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Deactivate a user&quot;, &quot;Deactivate user api&quot;](4)" classname="UserAPITestRunner" time="0.011">
-    <failure message="Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()" type="io.cucumber.core.runner.DuplicateStepDefinitionException"><![CDATA[io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()
-	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="runScenario[&quot;I can set a issue to a user&quot;, &quot;assign the current issue to a user&quot;](4)" classname="IssueAPITestRunner" time="0.227">
+    <system-out><![CDATA[HTTP/1.1 204 
+X-AREQUESTID: 303x18531x1
+Referrer-Policy: strict-origin-when-cross-origin
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: sandbox
+Strict-Transport-Security: max-age=31536000
+Set-Cookie: JSESSIONID=AB7CCC2353288AF9F03C3D46A88EE965; Path=/; HttpOnly
+X-Seraph-LoginReason: OK
+Set-Cookie: atlassian.xsrf.token=B5LV-4P6S-7VFS-39Z6_72a1f8023ccf607d2e076aa5bd633d51e1f2b291_lin; Path=/
+X-ASESSIONID: c5f8x4
+X-AUSERNAME: admin
+Cache-Control: no-cache, no-store, no-transform
+Content-Type: application/json;charset=UTF-8
+Date: Thu, 14 Dec 2023 10:03:36 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Assign a user to a group&quot;, &quot;Assign user group api&quot;](5)" classname="UserAPITestRunner" time="0.012">
-    <failure message="Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()" type="io.cucumber.core.runner.DuplicateStepDefinitionException"><![CDATA[io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()
-	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="runScenario[&quot;I can view all issues assign to me &quot;developer&quot;&quot;, &quot;view all current issues of a user&quot;](5)" classname="IssueAPITestRunner" time="0.177">
+    <system-out><![CDATA[admin]]></system-out>
   </testcase>
+  <testcase name="runScenario[&quot;As a user, I can add a comment to an issue, afterward I can edit it&quot;, &quot;Add and Edit comment of an issue&quot;](6)" classname="IssueAPITestRunner" time="0.279"/>
 </testsuite>

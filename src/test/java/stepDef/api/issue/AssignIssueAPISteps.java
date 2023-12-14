@@ -11,7 +11,7 @@ import static org.testng.Assert.assertEquals;
 public class AssignIssueAPISteps {
     private SearchAPI searchAPI;
     private IssueAPI issueAPI;
-    private String username = "developer";
+    private String username = "admin";
     private String currentProjectKey = "SCRUMPROJ3";
     private String issueKey;
 

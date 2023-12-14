@@ -6,4 +6,4 @@ Feature: Create an Epic in an existing project using API
 
     Examples:
     |projectKey   |epicName   |summary  |reporter|
-    |"SCRUMPROJ3" |"Backend"  |"test"   |"lead"  |
+    |"SCRUMPROJ3" |"Backend"  |"test"   |"admin"  |

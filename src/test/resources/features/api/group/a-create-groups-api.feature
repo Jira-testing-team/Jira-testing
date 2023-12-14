@@ -7,4 +7,4 @@ Feature: Create a group via API as admin user
     Examples:
       | username | password | addedGroup        |
       | "jzjz"   | "jzjz"   | "basic-jira-user" |
-      | "bob"    | "bob123" | "paid-jira-user"  |
+      | "admin"    | "admin" | "paid-jira-user"  |

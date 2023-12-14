@@ -11,7 +11,7 @@ import static org.testng.Assert.assertEquals;
 public class CommentIssueAPISteps {
     private IssueAPI issueAPI;
     private SearchAPI searchAPI;
-    private String username = "developer";
+    private String username = "admin";
     private String issueKey;
     private String commentId;
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="0" failed="5" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-14T03:12:25 EST" name="Surefire suite" finished-at="2023-12-14T03:12:26 EST" duration-ms="670">
+  <suite started-at="2023-12-14T05:03:33 EST" name="Surefire suite" finished-at="2023-12-14T05:03:37 EST" duration-ms="3431">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GroupAPITestRunner@291ae]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
@@ -17,503 +17,269 @@
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:WorkflowUITestRunner@6eda5c9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-12-14T03:12:25 EST" name="Surefire test" finished-at="2023-12-14T03:12:26 EST" duration-ms="670">
+    <test started-at="2023-12-14T05:03:33 EST" name="Surefire test" finished-at="2023-12-14T05:03:37 EST" duration-ms="3431">
       <class name="ProjectAPITestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:ProjectAPITestRunner@1dde4cb2]" started-at="2023-12-14T03:12:26 EST" name="setUpClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:ProjectAPITestRunner@1dde4cb2]" started-at="2023-12-14T05:03:37 EST" name="setUpClass" finished-at="2023-12-14T05:03:37 EST" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c65a5ef]]>
+                <![CDATA[org.testng.TestRunner@9b2dc56]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:ProjectAPITestRunner@1dde4cb2]" started-at="2023-12-14T03:12:26 EST" name="tearDownClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:ProjectAPITestRunner@1dde4cb2]" started-at="2023-12-14T05:03:37 EST" name="tearDownClass" finished-at="2023-12-14T05:03:37 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- ProjectAPITestRunner -->
       <class name="GroupAPITestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:GroupAPITestRunner@291ae]" started-at="2023-12-14T03:12:25 EST" name="setUpClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="199" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:GroupAPITestRunner@291ae]" started-at="2023-12-14T05:03:33 EST" name="setUpClass" finished-at="2023-12-14T05:03:33 EST" duration-ms="174" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c65a5ef]]>
+                <![CDATA[org.testng.TestRunner@9b2dc56]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:GroupAPITestRunner@291ae]" started-at="2023-12-14T03:12:26 EST" name="tearDownClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="139" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:GroupAPITestRunner@291ae]" started-at="2023-12-14T05:03:33 EST" name="tearDownClass" finished-at="2023-12-14T05:03:34 EST" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- GroupAPITestRunner -->
       <class name="ProjectUITestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:ProjectUITestRunner@7714e963]" started-at="2023-12-14T03:12:26 EST" name="setUpClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:ProjectUITestRunner@7714e963]" started-at="2023-12-14T05:03:37 EST" name="setUpClass" finished-at="2023-12-14T05:03:37 EST" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c65a5ef]]>
+                <![CDATA[org.testng.TestRunner@9b2dc56]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:ProjectUITestRunner@7714e963]" started-at="2023-12-14T03:12:26 EST" name="tearDownClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:ProjectUITestRunner@7714e963]" started-at="2023-12-14T05:03:37 EST" name="tearDownClass" finished-at="2023-12-14T05:03:37 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- ProjectUITestRunner -->
       <class name="IssueUITestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:IssueUITestRunner@3835c46]" started-at="2023-12-14T03:12:26 EST" name="setUpClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:IssueUITestRunner@3835c46]" started-at="2023-12-14T05:03:37 EST" name="setUpClass" finished-at="2023-12-14T05:03:37 EST" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c65a5ef]]>
+                <![CDATA[org.testng.TestRunner@9b2dc56]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:IssueUITestRunner@3835c46]" started-at="2023-12-14T03:12:26 EST" name="tearDownClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:IssueUITestRunner@3835c46]" started-at="2023-12-14T05:03:37 EST" name="tearDownClass" finished-at="2023-12-14T05:03:37 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- IssueUITestRunner -->
       <class name="UserAPITestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:UserAPITestRunner@393671df]" started-at="2023-12-14T03:12:26 EST" name="setUpClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:UserAPITestRunner@393671df]" started-at="2023-12-14T05:03:37 EST" name="setUpClass" finished-at="2023-12-14T05:03:37 EST" duration-ms="10" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c65a5ef]]>
+                <![CDATA[org.testng.TestRunner@9b2dc56]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:UserAPITestRunner@393671df]" started-at="2023-12-14T03:12:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-14T03:12:26 EST" duration-ms="64" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Create a new user"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Create user API testing"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.core.runner.DuplicateStepDefinitionException">
-            <message>
-              <![CDATA[Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()
-at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.core.runner.DuplicateStepDefinitionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:UserAPITestRunner@393671df]" started-at="2023-12-14T03:12:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-14T03:12:26 EST" duration-ms="11" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Create a new user"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Create user API testing"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.core.runner.DuplicateStepDefinitionException">
-            <message>
-              <![CDATA[Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()
-at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.core.runner.DuplicateStepDefinitionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:UserAPITestRunner@393671df]" started-at="2023-12-14T03:12:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-14T03:12:26 EST" duration-ms="11" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Create a new user"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Create user API testing"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.core.runner.DuplicateStepDefinitionException">
-            <message>
-              <![CDATA[Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()
-at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.core.runner.DuplicateStepDefinitionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:UserAPITestRunner@393671df]" started-at="2023-12-14T03:12:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-14T03:12:26 EST" duration-ms="9" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Deactivate a user"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Deactivate user api"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.core.runner.DuplicateStepDefinitionException">
-            <message>
-              <![CDATA[Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()
-at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.core.runner.DuplicateStepDefinitionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:UserAPITestRunner@393671df]" started-at="2023-12-14T03:12:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-14T03:12:26 EST" duration-ms="11" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Assign a user to a group"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Assign user group api"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.core.runner.DuplicateStepDefinitionException">
-            <message>
-              <![CDATA[Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDef.ui.issue.CreateIssueSteps.loginAtProjectBacklog() and stepDef.ui.project.CreateEpicSteps.loginAtProjectBacklog()
-at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.core.runner.DuplicateStepDefinitionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:UserAPITestRunner@393671df]" started-at="2023-12-14T03:12:26 EST" name="tearDownClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:UserAPITestRunner@393671df]" started-at="2023-12-14T05:03:37 EST" name="tearDownClass" finished-at="2023-12-14T05:03:37 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- UserAPITestRunner -->
       <class name="SprintTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:SprintTestRunner@20ce78ec]" started-at="2023-12-14T03:12:26 EST" name="setUpClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:SprintTestRunner@20ce78ec]" started-at="2023-12-14T05:03:37 EST" name="setUpClass" finished-at="2023-12-14T05:03:37 EST" duration-ms="28" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c65a5ef]]>
+                <![CDATA[org.testng.TestRunner@9b2dc56]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:SprintTestRunner@20ce78ec]" started-at="2023-12-14T03:12:26 EST" name="tearDownClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:SprintTestRunner@20ce78ec]" started-at="2023-12-14T05:03:37 EST" name="tearDownClass" finished-at="2023-12-14T05:03:37 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- SprintTestRunner -->
-      <class name="IssueAPITestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:IssueAPITestRunner@20deea7f]" started-at="2023-12-14T03:12:26 EST" name="setUpClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="17" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@c65a5ef]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:IssueAPITestRunner@20deea7f]" started-at="2023-12-14T03:12:26 EST" name="tearDownClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- IssueAPITestRunner -->
       <class name="GroupUITestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:GroupUITestRunner@7193666c]" started-at="2023-12-14T03:12:26 EST" name="setUpClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:GroupUITestRunner@7193666c]" started-at="2023-12-14T05:03:34 EST" name="setUpClass" finished-at="2023-12-14T05:03:34 EST" duration-ms="21" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c65a5ef]]>
+                <![CDATA[org.testng.TestRunner@9b2dc56]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:GroupUITestRunner@7193666c]" started-at="2023-12-14T03:12:26 EST" name="tearDownClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:GroupUITestRunner@7193666c]" started-at="2023-12-14T05:03:34 EST" name="tearDownClass" finished-at="2023-12-14T05:03:34 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- GroupUITestRunner -->
-      <class name="WorkflowUITestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:WorkflowUITestRunner@6eda5c9]" started-at="2023-12-14T03:12:26 EST" name="setUpClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="10" status="PASS">
+      <class name="IssueAPITestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:IssueAPITestRunner@20deea7f]" started-at="2023-12-14T05:03:34 EST" name="setUpClass" finished-at="2023-12-14T05:03:34 EST" duration-ms="18" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c65a5ef]]>
+                <![CDATA[org.testng.TestRunner@9b2dc56]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:WorkflowUITestRunner@6eda5c9]" started-at="2023-12-14T03:12:26 EST" name="tearDownClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="0" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:IssueAPITestRunner@20deea7f]" started-at="2023-12-14T05:03:34 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-14T05:03:35 EST" duration-ms="1720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I can create 2 issues in the project,"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create issues that belong to different epics and priorities in an existing project using API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:IssueAPITestRunner@20deea7f]" started-at="2023-12-14T05:03:35 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-14T05:03:35 EST" duration-ms="89" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I can create 2 issues in the project,"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create issues that belong to different epics and priorities in an existing project using API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:IssueAPITestRunner@20deea7f]" started-at="2023-12-14T05:03:35 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-14T05:03:36 EST" duration-ms="410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I can set a link relation between two issues"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["specify if the current issue is blocked by or is blocking other issues by linking issues"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:IssueAPITestRunner@20deea7f]" started-at="2023-12-14T05:03:36 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-14T05:03:36 EST" duration-ms="228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I can set a issue to a user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["assign the current issue to a user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:IssueAPITestRunner@20deea7f]" started-at="2023-12-14T05:03:36 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-14T05:03:36 EST" duration-ms="178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I can view all issues assign to me "developer""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["view all current issues of a user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:IssueAPITestRunner@20deea7f]" started-at="2023-12-14T05:03:36 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-14T05:03:37 EST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As a user, I can add a comment to an issue, afterward I can edit it"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add and Edit comment of an issue"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:IssueAPITestRunner@20deea7f]" started-at="2023-12-14T05:03:37 EST" name="tearDownClass" finished-at="2023-12-14T05:03:37 EST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- IssueAPITestRunner -->
+      <class name="WorkflowUITestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:WorkflowUITestRunner@6eda5c9]" started-at="2023-12-14T05:03:37 EST" name="setUpClass" finished-at="2023-12-14T05:03:37 EST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@9b2dc56]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:WorkflowUITestRunner@6eda5c9]" started-at="2023-12-14T05:03:37 EST" name="tearDownClass" finished-at="2023-12-14T05:03:37 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- WorkflowUITestRunner -->
       <class name="UserTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:UserTestRunner@56620197]" started-at="2023-12-14T03:12:26 EST" name="setUpClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:UserTestRunner@56620197]" started-at="2023-12-14T05:03:37 EST" name="setUpClass" finished-at="2023-12-14T05:03:37 EST" duration-ms="14" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c65a5ef]]>
+                <![CDATA[org.testng.TestRunner@9b2dc56]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:UserTestRunner@56620197]" started-at="2023-12-14T03:12:26 EST" name="tearDownClass" finished-at="2023-12-14T03:12:26 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:UserTestRunner@56620197]" started-at="2023-12-14T05:03:37 EST" name="tearDownClass" finished-at="2023-12-14T05:03:37 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

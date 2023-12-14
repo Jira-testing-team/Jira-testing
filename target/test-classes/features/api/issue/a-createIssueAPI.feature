@@ -6,5 +6,5 @@ Feature: Create issues that belong to different epics and priorities in an exist
 
     Examples:
       |projectKey   |issueSummary |reporter|priorityLevel|
-      |"SCRUMPROJ3" |"issue1"     |"lead"  |"highest"    |
-      |"SCRUMPROJ3" |"issue2"     |"lead"  |"medium"     |
+      |"SCRUMPROJ3" |"issue1"     |"admin"  |"highest"    |
+      |"SCRUMPROJ3" |"issue2"     |"admin"  |"medium"     |

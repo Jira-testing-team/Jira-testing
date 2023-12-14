@@ -13,7 +13,7 @@ import static org.testng.Assert.assertEquals;
 
 public class ViewMyIssuesAPISteps {
     private SearchAPI searchAPI;
-    private String username = "developer";
+    private String username = "admin";
     private List<String> issueList;
 
     public ViewMyIssuesAPISteps(){

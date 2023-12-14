@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-14T02:17:10 EST" name="Surefire suite" finished-at="2023-12-14T02:17:12 EST" duration-ms="1990">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GroupAPITestRunner@291ae]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GroupUITestRunner@7193666c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:IssueAPITestRunner@20deea7f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:IssueUITestRunner@3835c46]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ProjectAPITestRunner@1dde4cb2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ProjectUITestRunner@7714e963]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:SprintTestRunner@20ce78ec]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:UserAPITestRunner@393671df]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:UserTestRunner@56620197]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:WorkflowUITestRunner@6eda5c9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-12-14T02:17:10 EST" name="Surefire test" finished-at="2023-12-14T02:17:12 EST" duration-ms="1990">
+      <class name="ProjectAPITestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:ProjectAPITestRunner@1dde4cb2]" started-at="2023-12-14T02:17:12 EST" name="setUpClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@43d65a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:ProjectAPITestRunner@1dde4cb2]" started-at="2023-12-14T02:17:12 EST" name="tearDownClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- ProjectAPITestRunner -->
+      <class name="GroupAPITestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:GroupAPITestRunner@291ae]" started-at="2023-12-14T02:17:10 EST" name="setUpClass" finished-at="2023-12-14T02:17:10 EST" duration-ms="219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@43d65a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GroupAPITestRunner@291ae]" started-at="2023-12-14T02:17:10 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-14T02:17:12 EST" duration-ms="1401" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As an admin user, I can create a group and confirm it later by fetching a list of groups"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create a group via API as admin user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [400]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [400]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at stepDef.api.group.CreateGroupStepsAPI.iAmLoggedInAsAnAdminWithUsernameAndPassword(CreateGroupStepsAPI.java:19)
+at ✽.I am logged in as an admin with "jzjz" and "jzjz" and create a group with the name "basic-jira-user"(classpath:features/api/group/a-create-groups-api.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:GroupAPITestRunner@291ae]" started-at="2023-12-14T02:17:12 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-14T02:17:12 EST" duration-ms="23" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As an admin user, I can create a group and confirm it later by fetching a list of groups"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create a group via API as admin user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [400]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [400]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at stepDef.api.group.CreateGroupStepsAPI.iAmLoggedInAsAnAdminWithUsernameAndPassword(CreateGroupStepsAPI.java:19)
+at ✽.I am logged in as an admin with "bob" and "bob123" and create a group with the name "paid-jira-user"(classpath:features/api/group/a-create-groups-api.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:GroupAPITestRunner@291ae]" started-at="2023-12-14T02:17:12 EST" name="tearDownClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- GroupAPITestRunner -->
+      <class name="ProjectUITestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:ProjectUITestRunner@7714e963]" started-at="2023-12-14T02:17:12 EST" name="setUpClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@43d65a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:ProjectUITestRunner@7714e963]" started-at="2023-12-14T02:17:12 EST" name="tearDownClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- ProjectUITestRunner -->
+      <class name="IssueUITestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:IssueUITestRunner@3835c46]" started-at="2023-12-14T02:17:12 EST" name="setUpClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@43d65a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:IssueUITestRunner@3835c46]" started-at="2023-12-14T02:17:12 EST" name="tearDownClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- IssueUITestRunner -->
+      <class name="UserAPITestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:UserAPITestRunner@393671df]" started-at="2023-12-14T02:17:12 EST" name="setUpClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@43d65a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:UserAPITestRunner@393671df]" started-at="2023-12-14T02:17:12 EST" name="tearDownClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- UserAPITestRunner -->
+      <class name="SprintTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:SprintTestRunner@20ce78ec]" started-at="2023-12-14T02:17:12 EST" name="setUpClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@43d65a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:SprintTestRunner@20ce78ec]" started-at="2023-12-14T02:17:12 EST" name="tearDownClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- SprintTestRunner -->
+      <class name="IssueAPITestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:IssueAPITestRunner@20deea7f]" started-at="2023-12-14T02:17:12 EST" name="setUpClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@43d65a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:IssueAPITestRunner@20deea7f]" started-at="2023-12-14T02:17:12 EST" name="tearDownClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- IssueAPITestRunner -->
+      <class name="GroupUITestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:GroupUITestRunner@7193666c]" started-at="2023-12-14T02:17:12 EST" name="setUpClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@43d65a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:GroupUITestRunner@7193666c]" started-at="2023-12-14T02:17:12 EST" name="tearDownClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- GroupUITestRunner -->
+      <class name="WorkflowUITestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:WorkflowUITestRunner@6eda5c9]" started-at="2023-12-14T02:17:12 EST" name="setUpClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@43d65a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:WorkflowUITestRunner@6eda5c9]" started-at="2023-12-14T02:17:12 EST" name="tearDownClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- WorkflowUITestRunner -->
+      <class name="UserTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:UserTestRunner@56620197]" started-at="2023-12-14T02:17:12 EST" name="setUpClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@43d65a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:UserTestRunner@56620197]" started-at="2023-12-14T02:17:12 EST" name="tearDownClass" finished-at="2023-12-14T02:17:12 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- UserTestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

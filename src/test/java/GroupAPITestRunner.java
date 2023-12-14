@@ -4,7 +4,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         features = "classpath:features/api/group",
         glue = "classpath:stepDef/api/group",
-        plugin = ("json:target/cucumber-reports/CucumberTestReport.json"),
+        plugin = ("json:target/cucumber-reports/cucumber.json"),
         tags = "@api"
 )
 
